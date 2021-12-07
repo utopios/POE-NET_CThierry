@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description courant="APPELER_FONCTION afficherResultat()" texte=""/>
+    <description courant="AFFICHER res" texte=""/>
     <extension extnom="inactif"/>
     <fonction fctetat="inactif" fctcode=""/>
     <F2 F2etat="inactif" F2para="" F2defaut="" F2lignes=""/>
     <repere repetat="inactif" repcode="-10#10#-10#10#2#2"/>
     <param epaisseurPoint="2" maxBoucle="500000" totalAffichages="1000" totalBoucles="5000000" nbDecimales="8" epaisseurLigne="2" arrondiAuto="vrai"/>
     <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions">
-        <item algoitem="FONCTION afficherResultat( )" code="201#afficherResultat# ">
-            <item algoitem="VARIABLES_FONCTION" code="202#declarationsvariablesfonction"/>
+        <item algoitem="FONCTION afficherResultat( result)" code="201#afficherResultat# result">
+            <item algoitem="VARIABLES_FONCTION" code="202#declarationsvariablesfonction">
+                <item algoitem="res EST_DU_TYPE NOMBRE" code="1#NOMBRE#res"/>
+            </item>
             <item algoitem="DEBUT_FONCTION" code="203#debutfonction"/>
+            <item algoitem="res PREND_LA_VALEUR result" code="5#res#result#pasliste"/>
             <item algoitem="AFFICHER &quot;La plus grande valeur est : &quot;" code="4#La plus grande valeur est : #0"/>
-            <item algoitem="AFFICHER resultat" code="3#resultat#0#pasliste"/>
+            <item algoitem="AFFICHER res" code="3#res#1#pasliste"/>
             <item algoitem="FIN_FONCTION" code="204#finfonction"/>
         </item>
         <item algoitem="FONCTION comparerNombre(nb1,nb2)" code="201#comparerNombre#nb1,nb2">
@@ -41,13 +44,13 @@
         <item algoitem="AFFICHER &quot;Veuillez saisir le nombre 2&quot;" code="4#Veuillez saisir le nombre 2#0"/>
         <item algoitem="LIRE nombre2" code="2#nombre2#pasliste"/>
         <item algoitem="resultat PREND_LA_VALEUR comparerNombre(nombre1,nombre2)" code="5#resultat#comparerNombre(nombre1,nombre2)#pasliste"/>
-        <item algoitem="APPELER_FONCTION afficherResultat()" code="206#afficherResultat()"/>
+        <item algoitem="APPELER_FONCTION afficherResultat(resultat)" code="206#afficherResultat(resultat)"/>
         <item algoitem="AFFICHER &quot;Veuillez saisir un nombre 1 : &quot;" code="4#Veuillez saisir un nombre 1 : #0"/>
         <item algoitem="LIRE nombre1" code="2#nombre1#pasliste"/>
         <item algoitem="AFFICHER &quot;Veuillez saisir le nombre 2&quot;" code="4#Veuillez saisir le nombre 2#0"/>
         <item algoitem="LIRE nombre2" code="2#nombre2#pasliste"/>
         <item algoitem="resultat PREND_LA_VALEUR comparerNombre(nombre1,nombre2)" code="5#resultat#comparerNombre(nombre1,nombre2)#pasliste"/>
-        <item algoitem="APPELER_FONCTION afficherResultat()" code="206#afficherResultat()"/>
+        <item algoitem="APPELER_FONCTION afficherResultat(resultat)" code="206#afficherResultat(resultat)"/>
     </item>
     <item algoitem="FIN_ALGORITHME" code="102#finalgo"/>
 </Algo>
