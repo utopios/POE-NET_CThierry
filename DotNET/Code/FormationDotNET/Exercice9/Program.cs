@@ -7,6 +7,7 @@ namespace Exercice9
         static void Main(string[] args)
         {
             Console.WriteLine("--- Calcul des intérêts ---"+ Environment.NewLine);
+
             #region Déclaration des variables
             double capitalDepart;
             double tauxInteret;
@@ -39,10 +40,6 @@ namespace Exercice9
             Console.WriteLine($"Le capital final sera de {capitalFinal} Euros ");
 
             #endregion
-
-
-
-
 
             Console.WriteLine("\n\nAppuyez sur Enter pour ferme le programme...");
             Console.Read();
