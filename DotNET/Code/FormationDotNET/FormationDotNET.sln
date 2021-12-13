@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31515.178
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LangageCSharp", "LangageCSharp", "{A41A8E86-6DD9-4849-91C8-FBA9188BCC4A}"
 EndProject
@@ -53,6 +53,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SujetExercices", "SujetExer
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice12-IfElseQuelleCatégorie\Exercices12-IfElseQuelleCatégorie.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice12-IfElseQuelleCatégorie\Exercices12-IfElseQuelleCatégorie.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice13-IfElseTriangle\Exercices13-IfElseTriangle.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice13-IfElseTriangle\Exercices13-IfElseTriangle.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice14-IfElseTailleVêtement\Exercices14-TailleVêtement.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice14-IfElseTailleVêtement\Exercices14-TailleVêtement.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice15-IfElsePrimeLicenciement\Exercices15-PrimeLicenciement.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice15-IfElsePrimeLicenciement\Exercices15-PrimeLicenciement.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice16-IfElseCalculImpôts\Exercices16-CalculImpôts_rev.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice16-IfElseCalculImpôts\Exercices16-CalculImpôts_rev.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice17-SwitchBoissons\Exercices17-QuelleBoisson.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice17-SwitchBoissons\Exercices17-QuelleBoisson.pdf
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice6", "Exercice6\Exercice6.csproj", "{3C48ED9A-C1B0-444A-A6F3-44512576DC24}"
@@ -76,6 +79,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice15-ElseIfPrimeLicenciement", "Exercice15\Exercice15-ElseIfPrimeLicenciement.csproj", "{4B724D97-5975-49B8-9D51-CD35CBBE05C6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice16-ElseIfCalculImpots", "Exercice16\Exercice16-ElseIfCalculImpots.csproj", "{A9DBBE4A-70A0-4A39-8759-E73A83F82FF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SwitchCase", "SwitchCase", "{A70F3C05-467D-43DC-ADD5-9155A16E32CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -167,6 +174,10 @@ Global
 		{A9DBBE4A-70A0-4A39-8759-E73A83F82FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9DBBE4A-70A0-4A39-8759-E73A83F82FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9DBBE4A-70A0-4A39-8759-E73A83F82FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -200,6 +211,8 @@ Global
 		{387154F8-29DE-4130-BC5E-8B128ADA52E1} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{4B724D97-5975-49B8-9D51-CD35CBBE05C6} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{A9DBBE4A-70A0-4A39-8759-E73A83F82FF2} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{A70F3C05-467D-43DC-ADD5-9155A16E32CC} = {7C8C1AFE-1373-4E51-8B78-E1032EBE6455}
+		{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E} = {A70F3C05-467D-43DC-ADD5-9155A16E32CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
