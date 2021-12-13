@@ -27,15 +27,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LesConditionsEtBoucles", "L
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstructionIfElse", "InstructionIfElse\InstructionIfElse.csproj", "{B75E961F-2CFA-4397-BC0F-973FBE1F2660}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice1", "Exercice1\Exercice1.csproj", "{329D81BD-4BBC-4D78-80C9-11F50EB05BDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice01", "Exercice1\Exercice01.csproj", "{329D81BD-4BBC-4D78-80C9-11F50EB05BDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice2", "Exercice2\Exercice2.csproj", "{15ECB3CC-0580-440B-AD11-8C43666C7C67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice02", "Exercice2\Exercice02.csproj", "{15ECB3CC-0580-440B-AD11-8C43666C7C67}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice3", "Exercice3\Exercice3.csproj", "{71884A7D-D077-48A7-8F10-A8910745F184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice03", "Exercice3\Exercice03.csproj", "{71884A7D-D077-48A7-8F10-A8910745F184}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice4", "Exercice4\Exercice4.csproj", "{5523E66F-9082-412D-9D89-1E4B6AC903F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice04", "Exercice4\Exercice04.csproj", "{5523E66F-9082-412D-9D89-1E4B6AC903F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice5", "Exercice5\Exercice5.csproj", "{74DEA640-D5DD-446C-BB82-DF9A468F2397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice05", "Exercice5\Exercice05.csproj", "{74DEA640-D5DD-446C-BB82-DF9A468F2397}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SujetExercices", "SujetExercices", "{5AE9B2C6-10F3-4482-8739-76F500321F92}"
 	ProjectSection(SolutionItems) = preProject
@@ -56,15 +56,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SujetExercices", "SujetExer
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice15-IfElsePrimeLicenciement\Exercices15-PrimeLicenciement.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice15-IfElsePrimeLicenciement\Exercices15-PrimeLicenciement.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice16-IfElseCalculImpôts\Exercices16-CalculImpôts_rev.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice16-IfElseCalculImpôts\Exercices16-CalculImpôts_rev.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice17-SwitchBoissons\Exercices17-QuelleBoisson.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice17-SwitchBoissons\Exercices17-QuelleBoisson.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice18-SwitchQuelleCategorie\Exercices18-SwitchQuelleCategorie.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice18-SwitchQuelleCategorie\Exercices18-SwitchQuelleCategorie.pdf
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice6", "Exercice6\Exercice6.csproj", "{3C48ED9A-C1B0-444A-A6F3-44512576DC24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice06", "Exercice6\Exercice06.csproj", "{3C48ED9A-C1B0-444A-A6F3-44512576DC24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice7", "Exercice7\Exercice7.csproj", "{C3F7C580-91F5-43C2-8E9F-B7BCA7BF6A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice07", "Exercice7\Exercice07.csproj", "{C3F7C580-91F5-43C2-8E9F-B7BCA7BF6A6D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice8", "Exercice8\Exercice8.csproj", "{2BEC458C-90B9-4FD1-8DD4-EFB1350488FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice08", "Exercice8\Exercice08.csproj", "{2BEC458C-90B9-4FD1-8DD4-EFB1350488FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice9", "Exercice9\Exercice9.csproj", "{720B8E43-8827-4377-B9CF-88B6EFD1B82D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice09", "Exercice9\Exercice09.csproj", "{720B8E43-8827-4377-B9CF-88B6EFD1B82D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice10-IfElseVoyelle", "Exercice10\Exercice10-IfElseVoyelle.csproj", "{83B9CFFA-91A8-413C-ACD9-7EF38D20954C}"
 EndProject
@@ -83,6 +84,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SwitchCase", "SwitchCase", "{A70F3C05-467D-43DC-ADD5-9155A16E32CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice17-SwitchBoisson", "Exercice17\Exercice17-SwitchBoisson.csproj", "{016C9106-722F-4929-892F-93CAA264CBF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSwitch9", "TestSwitch9\TestSwitch9.csproj", "{942451A1-143D-49E6-B635-78C033F9DF9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -178,6 +183,14 @@ Global
 		{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{016C9106-722F-4929-892F-93CAA264CBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016C9106-722F-4929-892F-93CAA264CBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016C9106-722F-4929-892F-93CAA264CBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016C9106-722F-4929-892F-93CAA264CBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{942451A1-143D-49E6-B635-78C033F9DF9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{942451A1-143D-49E6-B635-78C033F9DF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{942451A1-143D-49E6-B635-78C033F9DF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{942451A1-143D-49E6-B635-78C033F9DF9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -213,6 +226,8 @@ Global
 		{A9DBBE4A-70A0-4A39-8759-E73A83F82FF2} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{A70F3C05-467D-43DC-ADD5-9155A16E32CC} = {7C8C1AFE-1373-4E51-8B78-E1032EBE6455}
 		{46D3D4CD-7963-4BAF-ACEC-9973BAEE4F0E} = {A70F3C05-467D-43DC-ADD5-9155A16E32CC}
+		{016C9106-722F-4929-892F-93CAA264CBF0} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{942451A1-143D-49E6-B635-78C033F9DF9E} = {A70F3C05-467D-43DC-ADD5-9155A16E32CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
