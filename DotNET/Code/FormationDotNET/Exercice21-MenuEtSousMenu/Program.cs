@@ -1,24 +1,11 @@
 ﻿using System;
 
-namespace Exercice20
+namespace Exercice21_MenuEtSousMenu
 {
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("--- Je compte jusqu'à 10 ---\n");
-            Console.WriteLine("Je commence à compter");
-            int i;
-            for( i = 1; i <= 10; i++ )
-            {
-                // Console.WriteLine("\t" + i);
-                Console.WriteLine($"\t{i}");
-                // Console.WriteLine("\t{0}",i);
-            }
-            Console.WriteLine($"Super ! Je sais compter jusqu'à {i-1}!");
-
-            Console.WriteLine("Appuyez sur Enter pour fermer le programme...");
-            Console.Read();
             Console.WriteLine("--- Menus et sous Menus ---\n");
             Console.WriteLine("Table des matières : \n");
 
@@ -33,7 +20,6 @@ namespace Exercice20
             }
             Console.WriteLine("\nAppuyez sur Enter pour fermer le programme...");
             Console.Read();
-
         }
     }
 }
