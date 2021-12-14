@@ -61,6 +61,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SujetExercices", "SujetExer
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice20-ForCompterA10\Exercices20-ForCompterA10.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice20-ForCompterA10\Exercices20-ForCompterA10.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice21-ForMenusEtSousMenus\Exercices21-ForMenusSousMenus.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice21-ForMenusEtSousMenus\Exercices21-ForMenusSousMenus.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice22-ForTableMultiplication\Exercices22-ForTableMultiplication.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice22-ForTableMultiplication\Exercices22-ForTableMultiplication.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice23-ForAccroissementPopulation\Exercices23-ForAcroissementPopulation.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice23-ForAccroissementPopulation\Exercices23-ForAcroissementPopulation.pdf
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice06", "Exercice6\Exercice06.csproj", "{3C48ED9A-C1B0-444A-A6F3-44512576DC24}"
@@ -104,6 +105,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice20-ForCompterADix", "Exercice20\Exercice20-ForCompterADix.csproj", "{9D225EB3-F00A-4DC5-BDE3-AA6A4762015D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice21-MenuEtSousMenu", "Exercice21-MenuEtSousMenu\Exercice21-MenuEtSousMenu.csproj", "{49C6863D-17B6-4BD7-B038-611BA0950C22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice22-TableMultiplication", "Exercice22-TableMultiplication\Exercice22-TableMultiplication.csproj", "{99F59686-1639-4545-891A-523238C6D1F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -227,6 +230,10 @@ Global
 		{49C6863D-17B6-4BD7-B038-611BA0950C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49C6863D-17B6-4BD7-B038-611BA0950C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49C6863D-17B6-4BD7-B038-611BA0950C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F59686-1639-4545-891A-523238C6D1F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F59686-1639-4545-891A-523238C6D1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F59686-1639-4545-891A-523238C6D1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F59686-1639-4545-891A-523238C6D1F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,6 +277,7 @@ Global
 		{D50BEC84-E3F8-45B5-A8C1-94A155C9CE5D} = {45E1A3CC-DE4F-4138-9487-1371559D8B6C}
 		{9D225EB3-F00A-4DC5-BDE3-AA6A4762015D} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{49C6863D-17B6-4BD7-B038-611BA0950C22} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{99F59686-1639-4545-891A-523238C6D1F1} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
