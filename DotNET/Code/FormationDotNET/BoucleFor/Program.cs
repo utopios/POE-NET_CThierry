@@ -26,7 +26,7 @@ namespace BoucleFor
             // Console.WriteLine(i);
             #endregion
 
-            #region Varaible décrémentée
+            #region Variable décrémentée
             for (int i = 10; i >= 0; i--)
             {
                 Console.WriteLine($"La valeur de i est {i}");
