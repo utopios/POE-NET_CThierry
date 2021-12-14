@@ -108,6 +108,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice21-MenuEtSousMenu",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice22-TableMultiplication", "Exercice22-TableMultiplication\Exercice22-TableMultiplication.csproj", "{99F59686-1639-4545-891A-523238C6D1F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice23-ForAccroissement", "Exercice23-ForAccroissement\Exercice23-ForAccroissement.csproj", "{69CA3889-6F2E-4B12-A98B-ED9D0C181CC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -234,6 +236,10 @@ Global
 		{99F59686-1639-4545-891A-523238C6D1F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99F59686-1639-4545-891A-523238C6D1F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99F59686-1639-4545-891A-523238C6D1F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CA3889-6F2E-4B12-A98B-ED9D0C181CC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CA3889-6F2E-4B12-A98B-ED9D0C181CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CA3889-6F2E-4B12-A98B-ED9D0C181CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CA3889-6F2E-4B12-A98B-ED9D0C181CC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -278,6 +284,7 @@ Global
 		{9D225EB3-F00A-4DC5-BDE3-AA6A4762015D} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{49C6863D-17B6-4BD7-B038-611BA0950C22} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{99F59686-1639-4545-891A-523238C6D1F1} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{69CA3889-6F2E-4B12-A98B-ED9D0C181CC8} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
