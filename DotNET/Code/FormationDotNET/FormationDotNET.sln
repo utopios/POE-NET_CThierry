@@ -66,6 +66,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SujetExercices", "SujetExer
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice25-ForMeilleureNote\Exercices25-ForMeilleureNote.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice25-ForMeilleureNote\Exercices25-ForMeilleureNote.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice26-WhileAcroissementPopulation\Exercices26-WhileAcroissementPopulation.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice26-WhileAcroissementPopulation\Exercices26-WhileAcroissementPopulation.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice27-WhileChaineEntiers\Exercices27-ForChaineEntiers.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice27-WhileChaineEntiers\Exercices27-ForChaineEntiers.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice28-WhileNombreMystere\Exercices28-WhileNombreMystere.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice28-WhileNombreMystere\Exercices28-WhileNombreMystere.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice29-WhileGestionDesNotes\Exercices29-WhileMeilleureNote.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice29-WhileGestionDesNotes\Exercices29-WhileMeilleureNote.pdf
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice06", "Exercice6\Exercice06.csproj", "{3C48ED9A-C1B0-444A-A6F3-44512576DC24}"
@@ -112,21 +114,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice22-TableMultiplicat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice23-ForAccroissement", "Exercice23-ForAccroissement\Exercice23-ForAccroissement.csproj", "{69CA3889-6F2E-4B12-A98B-ED9D0C181CC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice24-ForChaineEntier", "Exercice24-ForChaineEntier\Exercice24-ForChaineEntier.csproj", "{EC0D16AF-BC40-4C76-8307-37CBAFAABD79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice24-ForChaineEntier", "Exercice24-ForChaineEntier\Exercice24-ForChaineEntier.csproj", "{EC0D16AF-BC40-4C76-8307-37CBAFAABD79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice25-ForGestionNotes", "Exercice25-ForGestionNotes\Exercice25-ForGestionNotes.csproj", "{9F860B09-A4F5-4034-9DC9-96BD56C9777D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice25-ForGestionNotes", "Exercice25-ForGestionNotes\Exercice25-ForGestionNotes.csproj", "{9F860B09-A4F5-4034-9DC9-96BD56C9777D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoucleWhile", "BoucleWhile\BoucleWhile.csproj", "{EF1CABEF-26D0-4835-9C67-B46ADA3F6D8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoucleWhile", "BoucleWhile\BoucleWhile.csproj", "{EF1CABEF-26D0-4835-9C67-B46ADA3F6D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoucleDoWhile", "BoucleDoWhile\BoucleDoWhile.csproj", "{725F8C2E-47C2-4ACF-9242-001A1AE32263}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BoucleDoWhile", "BoucleDoWhile\BoucleDoWhile.csproj", "{725F8C2E-47C2-4ACF-9242-001A1AE32263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstructionIfElseIfElse", "InstructionIfElseIfElse\InstructionIfElseIfElse.csproj", "{7E101810-8E04-46DD-A887-DB90D150ED1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstructionIfElseIfElse", "InstructionIfElseIfElse\InstructionIfElseIfElse.csproj", "{7E101810-8E04-46DD-A887-DB90D150ED1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice26-WhileAccroissementPop", "Exercice26-WhileAccroissementPop\Exercice26-WhileAccroissementPop.csproj", "{3DA419B1-0D62-4E75-A0E7-DC6E639795DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice26-WhileAccroissementPop", "Exercice26-WhileAccroissementPop\Exercice26-WhileAccroissementPop.csproj", "{3DA419B1-0D62-4E75-A0E7-DC6E639795DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice27-WhileChaineEntier", "Exercice27-WhileChaineEntier\Exercice27-WhileChaineEntier.csproj", "{B8AA14E3-7F0C-4C1C-942C-2BA6A22BE7E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice27-WhileChaineEntier", "Exercice27-WhileChaineEntier\Exercice27-WhileChaineEntier.csproj", "{B8AA14E3-7F0C-4C1C-942C-2BA6A22BE7E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice28-NbMystere", "Exercice28-NbMystere\Exercice28-NbMystere.csproj", "{D5AD0DEB-0F23-405F-8938-B67F3274A13C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice28-NbMystere", "Exercice28-NbMystere\Exercice28-NbMystere.csproj", "{D5AD0DEB-0F23-405F-8938-B67F3274A13C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
