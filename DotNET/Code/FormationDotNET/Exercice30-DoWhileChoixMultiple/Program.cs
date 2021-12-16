@@ -61,8 +61,6 @@ namespace Exercice30_DoWhileChoixMultiple
                     ok = poursuivre == "OUI" || poursuivre == "NON" ? true : false;
 
                 }
-
-
             } while (poursuivre=="OUI");
             #endregion
 
