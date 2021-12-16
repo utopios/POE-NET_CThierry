@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Exercice28_NbMystere
+namespace Exercice28_WhileNbMystere
 {
     internal class Program
     {
