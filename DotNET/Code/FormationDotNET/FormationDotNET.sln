@@ -130,6 +130,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice27-WhileChaineEntie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice28-NbMystere", "Exercice28-NbMystere\Exercice28-NbMystere.csproj", "{D5AD0DEB-0F23-405F-8938-B67F3274A13C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstructionBreakContinue", "InstructionBreakContinue\InstructionBreakContinue.csproj", "{635E7DBF-B14F-47B4-ACD6-D384FD62D987}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -292,6 +294,10 @@ Global
 		{D5AD0DEB-0F23-405F-8938-B67F3274A13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5AD0DEB-0F23-405F-8938-B67F3274A13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5AD0DEB-0F23-405F-8938-B67F3274A13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{635E7DBF-B14F-47B4-ACD6-D384FD62D987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{635E7DBF-B14F-47B4-ACD6-D384FD62D987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{635E7DBF-B14F-47B4-ACD6-D384FD62D987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{635E7DBF-B14F-47B4-ACD6-D384FD62D987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -344,6 +350,7 @@ Global
 		{3DA419B1-0D62-4E75-A0E7-DC6E639795DF} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{B8AA14E3-7F0C-4C1C-942C-2BA6A22BE7E6} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{D5AD0DEB-0F23-405F-8938-B67F3274A13C} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{635E7DBF-B14F-47B4-ACD6-D384FD62D987} = {002B7BCD-9308-4A1F-A675-517C8E20D81A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
