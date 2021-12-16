@@ -64,6 +64,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SujetExercices", "SujetExer
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice23-ForAccroissementPopulation\Exercices23-ForAcroissementPopulation.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice23-ForAccroissementPopulation\Exercices23-ForAcroissementPopulation.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice24-ForChaineEntiers\Exercices24-ForChaineEntiers.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice24-ForChaineEntiers\Exercices24-ForChaineEntiers.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice25-ForMeilleureNote\Exercices25-ForMeilleureNote.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice25-ForMeilleureNote\Exercices25-ForMeilleureNote.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice26-WhileAcroissementPopulation\Exercices26-WhileAcroissementPopulation.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice26-WhileAcroissementPopulation\Exercices26-WhileAcroissementPopulation.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice27-WhileChaineEntiers\Exercices27-ForChaineEntiers.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice27-WhileChaineEntiers\Exercices27-ForChaineEntiers.pdf
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice06", "Exercice6\Exercice06.csproj", "{3C48ED9A-C1B0-444A-A6F3-44512576DC24}"
@@ -121,6 +123,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstructionIfElseIfElse", "InstructionIfElseIfElse\InstructionIfElseIfElse.csproj", "{7E101810-8E04-46DD-A887-DB90D150ED1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice26-WhileAccroissementPop", "Exercice26-WhileAccroissementPop\Exercice26-WhileAccroissementPop.csproj", "{3DA419B1-0D62-4E75-A0E7-DC6E639795DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice27-WhileChaineEntier", "Exercice27-WhileChaineEntier\Exercice27-WhileChaineEntier.csproj", "{B8AA14E3-7F0C-4C1C-942C-2BA6A22BE7E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice28-NbMystere", "Exercice28-NbMystere\Exercice28-NbMystere.csproj", "{D5AD0DEB-0F23-405F-8938-B67F3274A13C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -276,6 +282,14 @@ Global
 		{3DA419B1-0D62-4E75-A0E7-DC6E639795DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DA419B1-0D62-4E75-A0E7-DC6E639795DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DA419B1-0D62-4E75-A0E7-DC6E639795DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AA14E3-7F0C-4C1C-942C-2BA6A22BE7E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AA14E3-7F0C-4C1C-942C-2BA6A22BE7E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AA14E3-7F0C-4C1C-942C-2BA6A22BE7E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AA14E3-7F0C-4C1C-942C-2BA6A22BE7E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5AD0DEB-0F23-405F-8938-B67F3274A13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AD0DEB-0F23-405F-8938-B67F3274A13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AD0DEB-0F23-405F-8938-B67F3274A13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AD0DEB-0F23-405F-8938-B67F3274A13C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -326,6 +340,8 @@ Global
 		{725F8C2E-47C2-4ACF-9242-001A1AE32263} = {002B7BCD-9308-4A1F-A675-517C8E20D81A}
 		{7E101810-8E04-46DD-A887-DB90D150ED1F} = {002B7BCD-9308-4A1F-A675-517C8E20D81A}
 		{3DA419B1-0D62-4E75-A0E7-DC6E639795DF} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{B8AA14E3-7F0C-4C1C-942C-2BA6A22BE7E6} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{D5AD0DEB-0F23-405F-8938-B67F3274A13C} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
