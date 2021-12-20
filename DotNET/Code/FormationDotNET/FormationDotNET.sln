@@ -161,6 +161,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice35-TableauxListeCon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice36-TableauxDeNotes", "Exercice36\Exercice36-TableauxDeNotes.csproj", "{E9460C23-92AA-430C-AECB-B9322C04EDFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoucleForeEach", "BoucleForeEach\BoucleForeEach.csproj", "{F1BA8FF9-E0AF-4C2E-8732-5380996FE8C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{E9460C23-92AA-430C-AECB-B9322C04EDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9460C23-92AA-430C-AECB-B9322C04EDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9460C23-92AA-430C-AECB-B9322C04EDFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BA8FF9-E0AF-4C2E-8732-5380996FE8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BA8FF9-E0AF-4C2E-8732-5380996FE8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BA8FF9-E0AF-4C2E-8732-5380996FE8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BA8FF9-E0AF-4C2E-8732-5380996FE8C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -426,6 +432,7 @@ Global
 		{C3FB74D2-390E-4B62-9011-3E5D66844C5E} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{492DEFEF-3148-4711-BAED-B7647DDF83FC} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{E9460C23-92AA-430C-AECB-B9322C04EDFA} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{F1BA8FF9-E0AF-4C2E-8732-5380996FE8C2} = {002B7BCD-9308-4A1F-A675-517C8E20D81A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}

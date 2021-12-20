@@ -38,6 +38,7 @@ namespace Exercice35
                             Console.Write("Nom et prénom du contact N° " + (i + 1) + " : ");
                             persons[i] = Console.ReadLine();
                         }
+                        
                         Console.Clear();
                         break;
 

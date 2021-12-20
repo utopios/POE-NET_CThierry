@@ -49,6 +49,7 @@ namespace Exercice36
                     }
                 }
             }
+
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("");
             Console.WriteLine("--- Liste des notes ---");
@@ -58,6 +59,7 @@ namespace Exercice36
                 Console.WriteLine("La note " + (i + 1) + " est de : " + notes[i] + "/20");
                 moyenne += notes[i];
             }
+
             Console.WriteLine("");
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("--- La note max est : " + notes.Max() + "/20");
