@@ -69,6 +69,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SujetExercices", "SujetExer
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice28-WhileNombreMystere\Exercices28-WhileNombreMystere.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice28-WhileNombreMystere\Exercices28-WhileNombreMystere.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice29-WhileGestionDesNotes\Exercices29-WhileMeilleureNote.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice29-WhileGestionDesNotes\Exercices29-WhileMeilleureNote.pdf
 		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice30-DoWhileQuestionMultiple\Exercices30-DoWhileQuestionMultiple.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice30-DoWhileQuestionMultiple\Exercices30-DoWhileQuestionMultiple.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice31-DoWhileGestionNoteMenu\Exercices31-DoWhileGestionNoteMenu.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice31-DoWhileGestionNoteMenu\Exercices31-DoWhileGestionNoteMenu.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice32-TableauxInsertionValeurs\Exercices32-TableauInsertionValeurs.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice32-TableauxInsertionValeurs\Exercices32-TableauInsertionValeurs.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice33-TableauTableASCII\Exercices33-TableauTableASCII.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice33-TableauTableASCII\Exercices33-TableauTableASCII.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice34-TableauEstPairEstImpair\Exercices34-TableauEstPairEstImpair.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice34-TableauEstPairEstImpair\Exercices34-TableauEstPairEstImpair.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice35-TableauListeContact\Exercices35-TableauListeContacts.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice35-TableauListeContact\Exercices35-TableauListeContacts.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice36-TableauDeNotes\Exercices36-TableauDeNotes.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice36-TableauDeNotes\Exercices36-TableauDeNotes.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice37-ForeachMois\Exercices37-ForeachLesMois.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice37-ForeachMois\Exercices37-ForeachLesMois.pdf
+		..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice38-ForeachOuEstPasse\Exercices38-ForeachOuEstPasse.pdf = ..\..\..\..\..\..\..\MesFormations\FormationC#-NET\Sujet Exercices\SujetExercicesCSharp\Exercice38-ForeachOuEstPasse\Exercices38-ForeachOuEstPasse.pdf
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice06", "Exercice6\Exercice06.csproj", "{3C48ED9A-C1B0-444A-A6F3-44512576DC24}"
@@ -131,15 +139,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice27-WhileChaineEntie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice28-WhileNbMystere", "Exercice28-NbMystere\Exercice28-WhileNbMystere.csproj", "{D5AD0DEB-0F23-405F-8938-B67F3274A13C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstructionBreakContinue", "InstructionBreakContinue\InstructionBreakContinue.csproj", "{635E7DBF-B14F-47B4-ACD6-D384FD62D987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstructionBreakContinue", "InstructionBreakContinue\InstructionBreakContinue.csproj", "{635E7DBF-B14F-47B4-ACD6-D384FD62D987}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice29-WhileGestionNotes", "Exercice29-WhileGestionNotes\Exercice29-WhileGestionNotes.csproj", "{AD6D4E29-2936-4039-B4D8-4DB83E1C9C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice29-WhileGestionNotes", "Exercice29-WhileGestionNotes\Exercice29-WhileGestionNotes.csproj", "{AD6D4E29-2936-4039-B4D8-4DB83E1C9C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice30-DoWhileChoixMultiple", "Exercice30-DoWhileChoixMultiple\Exercice30-DoWhileChoixMultiple.csproj", "{723A0E90-8B60-4CCE-A3E8-51DD76D07E3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice30-DoWhileChoixMultiple", "Exercice30-DoWhileChoixMultiple\Exercice30-DoWhileChoixMultiple.csproj", "{723A0E90-8B60-4CCE-A3E8-51DD76D07E3D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LesTableaux", "LesTableaux", "{85FB3622-82CB-4EF3-AC7B-35479E220218}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesTableaux", "LesTableaux\LesTableaux.csproj", "{B6AEB8E3-6FD3-4B6E-815C-E4F7BA03CD32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesTableaux", "LesTableaux\LesTableaux.csproj", "{B6AEB8E3-6FD3-4B6E-815C-E4F7BA03CD32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice31-DoWhileGestionNoteMenu", "Exercice31\Exercice31-DoWhileGestionNoteMenu.csproj", "{2BCA8E97-4230-47A0-8789-7F61E7F9A387}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice32-TableauxInsertionValeurs", "Exercice32\Exercice32-TableauxInsertionValeurs.csproj", "{4650DD85-5D2E-4A79-83D4-4D58B831E2E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice33-TableauxTableASCII", "Exercice33\Exercice33-TableauxTableASCII.csproj", "{3A8E29D0-A848-43DB-82C2-6C6B28FB78BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice34-TableauxEstPairEstImpair", "Exercice34\Exercice34-TableauxEstPairEstImpair.csproj", "{C3FB74D2-390E-4B62-9011-3E5D66844C5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice35-TableauxListeContacts", "Exercice35\Exercice35-TableauxListeContacts.csproj", "{492DEFEF-3148-4711-BAED-B7647DDF83FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice36-TableauxDeNotes", "Exercice36\Exercice36-TableauxDeNotes.csproj", "{E9460C23-92AA-430C-AECB-B9322C04EDFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -319,6 +339,30 @@ Global
 		{B6AEB8E3-6FD3-4B6E-815C-E4F7BA03CD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6AEB8E3-6FD3-4B6E-815C-E4F7BA03CD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6AEB8E3-6FD3-4B6E-815C-E4F7BA03CD32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BCA8E97-4230-47A0-8789-7F61E7F9A387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCA8E97-4230-47A0-8789-7F61E7F9A387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCA8E97-4230-47A0-8789-7F61E7F9A387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCA8E97-4230-47A0-8789-7F61E7F9A387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4650DD85-5D2E-4A79-83D4-4D58B831E2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4650DD85-5D2E-4A79-83D4-4D58B831E2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4650DD85-5D2E-4A79-83D4-4D58B831E2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4650DD85-5D2E-4A79-83D4-4D58B831E2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8E29D0-A848-43DB-82C2-6C6B28FB78BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8E29D0-A848-43DB-82C2-6C6B28FB78BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8E29D0-A848-43DB-82C2-6C6B28FB78BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8E29D0-A848-43DB-82C2-6C6B28FB78BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FB74D2-390E-4B62-9011-3E5D66844C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FB74D2-390E-4B62-9011-3E5D66844C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FB74D2-390E-4B62-9011-3E5D66844C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FB74D2-390E-4B62-9011-3E5D66844C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492DEFEF-3148-4711-BAED-B7647DDF83FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492DEFEF-3148-4711-BAED-B7647DDF83FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492DEFEF-3148-4711-BAED-B7647DDF83FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492DEFEF-3148-4711-BAED-B7647DDF83FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9460C23-92AA-430C-AECB-B9322C04EDFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9460C23-92AA-430C-AECB-B9322C04EDFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9460C23-92AA-430C-AECB-B9322C04EDFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9460C23-92AA-430C-AECB-B9322C04EDFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -376,6 +420,12 @@ Global
 		{723A0E90-8B60-4CCE-A3E8-51DD76D07E3D} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 		{85FB3622-82CB-4EF3-AC7B-35479E220218} = {7C8C1AFE-1373-4E51-8B78-E1032EBE6455}
 		{B6AEB8E3-6FD3-4B6E-815C-E4F7BA03CD32} = {85FB3622-82CB-4EF3-AC7B-35479E220218}
+		{2BCA8E97-4230-47A0-8789-7F61E7F9A387} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{4650DD85-5D2E-4A79-83D4-4D58B831E2E3} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{3A8E29D0-A848-43DB-82C2-6C6B28FB78BA} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{C3FB74D2-390E-4B62-9011-3E5D66844C5E} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{492DEFEF-3148-4711-BAED-B7647DDF83FC} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
+		{E9460C23-92AA-430C-AECB-B9322C04EDFA} = {3B9C94DB-6E07-4590-B5E4-D352BF0BAEF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}

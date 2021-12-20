@@ -103,10 +103,15 @@ namespace LesTableaux
                 Console.WriteLine("A l'index {0} : {1}", i, nombre[i]);
             }
 
+            Array.Sort(prenoms);
+            for (int i = 0; i < prenoms.Length; i++)
+            {
+                Console.WriteLine("A l'index {0} : {1}", i, prenoms[i]);
+            }
             #endregion
 
 
-            #region Reverse()
+            #region Reverse() (pour l'inverser)
             Array.Reverse(nombre);
             for (int i = 0; i < nombre.Length; i++)
             {
@@ -114,11 +119,7 @@ namespace LesTableaux
             }
             #endregion
 
-            Array.Sort(prenoms);
-            for (int i = 0; i < prenoms.Length; i++)
-            {
-                Console.WriteLine("A l'index {0} : {1}", i, prenoms[i]);
-            }
+            
             Console.WriteLine("\nAppuyez sur ENTER pour fermer le programme");
             Console.Read();
         }
