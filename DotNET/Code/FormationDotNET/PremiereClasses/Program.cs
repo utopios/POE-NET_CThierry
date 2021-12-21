@@ -25,7 +25,19 @@ namespace PremiereClasses
             Afficher(voitureDeMeriem);
 
             voitureDeFabien.Demarrer();
-            voitureDeFabien.Demarrer();
+            //voitureDeFabien.Demarrer();
+            voitureDeFabien.Rouler();
+            voitureDeFabien.Rouler();
+            voitureDeFabien.Klaxonner();
+            voitureDeFabien.Rouler();
+            voitureDeFabien.Stopper();
+            voitureDeFabien.Klaxonner();
+            //voitureDeFabien.Stopper();
+            voitureDeFabien.Arreter();
+            //voitureDeFabien.Arreter();
+            voitureDeFabien.Klaxonner();
+
+
 
 
             Console.WriteLine("Appuyez sur ENTER pour fermer le programme...");
