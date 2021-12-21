@@ -23,11 +23,15 @@ namespace LesMethodes
             int chiffre2;
             AffichagePersonnalise("Anthony", "C#");
             AffichagePersonnalise("Jeanne", "Javascript");
+
+
             Console.Write("Entrez votre prénom : ");
             prenom = Console.ReadLine();
             Console.Write("Quel langage apprennez-vous? : ");
             langage = Console.ReadLine();
             AffichagePersonnalise(prenom, langage);
+
+
             Console.Write("Entrez le premier chiffre : ");
             chiffre1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Entrez le chiffre 2 : ");
@@ -45,6 +49,7 @@ namespace LesMethodes
             #endregion
             Console.Read();
         }
+
         static void AffichageBienvenue()
         {
             Console.WriteLine("Bonjour");
@@ -71,8 +76,8 @@ namespace LesMethodes
         }
         static int Additionner(int nb1, int nb2)
         {
-            int resultat = nb1 + nb2;
-            return resultat;
+            //int resultat = nb1 + nb2;
+            return nb1 + nb2;
         }
         static void AfficherTableau(string[] contacts)
         {

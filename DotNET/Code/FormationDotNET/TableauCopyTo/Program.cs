@@ -30,7 +30,7 @@ namespace CopieTableauCopyTo
 
             #region Copie de T1 dans T2 avec la méthode CopyTo()
             Console.WriteLine("Copie de T1 dans T2");
-            T1.CopyTo(T2,0);
+            T1.CopyTo(T2,5);
             #endregion
 
             #region Modification de T1
