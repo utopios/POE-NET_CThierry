@@ -21,7 +21,6 @@ namespace TpClasseChaise
             chaise2.Afficher();
             #endregion
 
-
             #region Chaise 3
             Chaise chaise3 = new Chaise(1, "Transparente", "Pléxiglass");
             chaise3.Afficher();
