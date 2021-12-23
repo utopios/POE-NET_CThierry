@@ -9,22 +9,26 @@ namespace TpLePendu.Classes
     internal class LePendu
     {
         #region Attributs
+        GenerateurDeMots motGenere;
         private string motATrouver;
         private int nbreEssai;
         private string masque;
         #endregion
 
-        #region Constructeur
-        public LePendu()
+        #region Constructeurs
+        public LePendu(GenerateurDeMots g)
         {
-
+            motGenere = g;
+            MotATrouver = g.Generer();
+            GenerateurMasque();
+            nbreEssai = 10;
         }
-        public LePendu(string motATrouver, int nbreEssai, string masque)
-        {
-            MotATrouver=motATrouver;
-            NbreEssai=nbreEssai;
-            Masque=masque;
-        }
+        //public LePendu(string motATrouver, int nbreEssai, string masque)
+        //{
+        //    MotATrouver=motATrouver;
+        //    NbreEssai=nbreEssai;
+        //    Masque=masque;
+        //}
         #endregion
 
         #region Propriétés
@@ -44,10 +48,19 @@ namespace TpLePendu.Classes
             return true;
         }
 
-        public void GenerateurMasque(GenerateurDeMots motGenere)
+        public void GenerateurMasque()
         {
-            MotATrouver = motGenere.Generer();
-            Console.WriteLine(motATrouver);
+            masque = "";
+
+            //Console.WriteLine(motATrouver);
+
+            for (int i = 0; i < motATrouver.Length; i++)
+            {
+                masque += "*";
+            }
+
+            //Console.WriteLine(masque);
+
         }
         #endregion
     }
