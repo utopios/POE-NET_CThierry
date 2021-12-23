@@ -36,14 +36,8 @@ namespace TpClasseSalarie
             Salarie.ModifierCompteur(15);
             Salarie.AfficherCompteur();
 
-
-
-
-
-
             Console.WriteLine("Appuyez sur ENTER pour fermer le programme...");
             Console.Read();
         }
-
     }
 }
