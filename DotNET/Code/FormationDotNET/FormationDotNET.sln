@@ -203,7 +203,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TpClasseSalarie", "TpClasse
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TpLePendu", "TpLePendu", "{5E8AA09B-9A9D-42F2-87D5-B4F5E01060F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpLePendu", "TpLePendu\TpLePendu.csproj", "{5584234A-5A93-4484-A99C-ADEAF7BE0F6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TpLePendu", "TpLePendu\TpLePendu.csproj", "{5584234A-5A93-4484-A99C-ADEAF7BE0F6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

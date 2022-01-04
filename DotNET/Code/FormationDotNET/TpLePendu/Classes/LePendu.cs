@@ -23,12 +23,14 @@ namespace TpLePendu.Classes
             GenerateurMasque();
             nbreEssai = 10;
         }
-        //public LePendu(string motATrouver, int nbreEssai, string masque)
-        //{
-        //    MotATrouver=motATrouver;
-        //    NbreEssai=nbreEssai;
-        //    Masque=masque;
-        //}
+        public LePendu(GenerateurDeMots g, int nbreEssai)
+        {
+            motGenere = g;
+            MotATrouver = g.Generer();
+            GenerateurMasque();
+            NbreEssai = nbreEssai;
+        }
+
         #endregion
 
         #region Propriétés
@@ -38,14 +40,41 @@ namespace TpLePendu.Classes
         #endregion
 
         #region Méthodes
-        public bool TestChar()
+        public bool TestChar(char c)
         {
-            return true;
+            // Console.WriteLine(c);
+            bool found= false;
+            string masqueTmp="";
+            for (int i = 0; i < MotATrouver.Length; i++)
+            {
+                //Console.WriteLine(MotATrouver[i]);
+                if (MotATrouver[i] == c)
+                {
+                    found = true;
+                    masqueTmp += c;
+                }
+                else
+                {
+                    masqueTmp += masque[i];
+                }
+                //Console.WriteLine(masqueTmp);
+            }
+            masque = masqueTmp;
+            //Console.WriteLine(masque);
+
+            if (found == false)
+            {
+                NbreEssai--;
+            }
+            return found;
         }
 
         public bool TestWin()
         {
-            return true;
+            if (MotATrouver == Masque && NbreEssai >0)
+                return true;            
+            else
+                return false;            
         }
 
         public void GenerateurMasque()
