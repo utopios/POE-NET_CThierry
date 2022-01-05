@@ -43,12 +43,15 @@ namespace TpClasseSalarieHeritage.Classes
                 switch (choix)
                 {
                     case "1":
+                        Console.Clear();
                         CreationEmploye();
                         break;
                     case "2":
+                        Console.Clear();
                         SalaireEmployes();
                         break;
                     case "3":
+                        Console.Clear();
                         RechercherSalarie();
                         break;
                     case "0":
@@ -173,7 +176,32 @@ namespace TpClasseSalarieHeritage.Classes
 
         private void RechercherSalarie()
         {
-            Console.WriteLine("RechercherSalarie");
+            Console.WriteLine("=== Rechercher un employé par nom ===");
+            Console.Write("Veuillez saisir les nom : ");
+            string nom = Console.ReadLine();
+            Salarie s = null;
+            for (int i = 0; i < employes.Length; i++)
+            {
+                if (employes[i] == null)
+                {
+                    break;
+                }
+                else if (employes[i].Nom == nom)
+                {
+                    s = employes[i];
+                    break;
+                }                
+            }
+
+            if (s != null)
+            {
+                s.CalculerSalaire();
+            }
+            else
+            {
+                Console.WriteLine("Aucun employés avec ce nom.");
+            }
+
         }
     }
 }
