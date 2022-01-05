@@ -213,6 +213,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TpClasseSalarieHeritage", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TpClasseSalarieHeritage", "TpClasseSalarieHeritage\TpClasseSalarieHeritage.csproj", "{4667B61A-56FA-41FF-9906-B7238094959C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesEnums", "LesEnums\LesEnums.csproj", "{6725A996-6564-433C-BDF4-2F01AC19BE4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -487,6 +489,10 @@ Global
 		{4667B61A-56FA-41FF-9906-B7238094959C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4667B61A-56FA-41FF-9906-B7238094959C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4667B61A-56FA-41FF-9906-B7238094959C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6725A996-6564-433C-BDF4-2F01AC19BE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6725A996-6564-433C-BDF4-2F01AC19BE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6725A996-6564-433C-BDF4-2F01AC19BE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6725A996-6564-433C-BDF4-2F01AC19BE4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -575,6 +581,7 @@ Global
 		{84BDD02B-EF50-45A9-B576-0309B5EDCC20} = {130E5F56-7C76-4675-9776-077D0C8D5463}
 		{9C21DFA6-491D-4962-99DE-F378779E3EF2} = {C1210147-83C6-4C09-AB95-B974B8E419DD}
 		{4667B61A-56FA-41FF-9906-B7238094959C} = {9C21DFA6-491D-4962-99DE-F378779E3EF2}
+		{6725A996-6564-433C-BDF4-2F01AC19BE4C} = {130E5F56-7C76-4675-9776-077D0C8D5463}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
