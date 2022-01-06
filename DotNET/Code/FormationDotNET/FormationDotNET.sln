@@ -217,7 +217,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesEnums", "LesEnums\LesEnu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesGeneriques", "LesGeneriques\LesGeneriques.csproj", "{34EF661C-D051-454F-9140-61DD3ABFDA6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpTheGreatTpList", "TpTheGreatTpList\TpTheGreatTpList.csproj", "{8F143B98-EEBB-44FB-9F98-704860AD5FEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TpTheGreatTpList", "TpTheGreatTpList\TpTheGreatTpList.csproj", "{8F143B98-EEBB-44FB-9F98-704860AD5FEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionMethodes", "ExtentionMethodes\ExtentionMethodes.csproj", "{C68C5209-387A-4D76-BBD1-6D659F6992A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -505,6 +507,10 @@ Global
 		{8F143B98-EEBB-44FB-9F98-704860AD5FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F143B98-EEBB-44FB-9F98-704860AD5FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F143B98-EEBB-44FB-9F98-704860AD5FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C68C5209-387A-4D76-BBD1-6D659F6992A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C68C5209-387A-4D76-BBD1-6D659F6992A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C68C5209-387A-4D76-BBD1-6D659F6992A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C68C5209-387A-4D76-BBD1-6D659F6992A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -596,6 +602,7 @@ Global
 		{6725A996-6564-433C-BDF4-2F01AC19BE4C} = {130E5F56-7C76-4675-9776-077D0C8D5463}
 		{34EF661C-D051-454F-9140-61DD3ABFDA6D} = {130E5F56-7C76-4675-9776-077D0C8D5463}
 		{8F143B98-EEBB-44FB-9F98-704860AD5FEC} = {C1210147-83C6-4C09-AB95-B974B8E419DD}
+		{C68C5209-387A-4D76-BBD1-6D659F6992A9} = {130E5F56-7C76-4675-9776-077D0C8D5463}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
