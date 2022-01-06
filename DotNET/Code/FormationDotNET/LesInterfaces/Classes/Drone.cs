@@ -16,7 +16,6 @@ namespace LesInterfaces.Classes
         public void Decoller()
         {
             Console.WriteLine("Je décolle à la verticale");
-
         }
 
         public void Voler()
