@@ -16,6 +16,13 @@ namespace ExtentionMethodes
                 Console.WriteLine(i);
             }
 
+            List<string> s =new List<string>() { "Titi","Tata","Toto"};
+            s.Shuffle();
+
+            foreach (string nom in s)
+            {
+                Console.WriteLine(nom);
+            }
             Console.WriteLine("Appuyez sur ENTER pour fermer le programe...");
             Console.Read();
         }
