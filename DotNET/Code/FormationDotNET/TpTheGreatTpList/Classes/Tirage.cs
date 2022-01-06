@@ -10,8 +10,8 @@ namespace TpTheGreatTpList.Classes
 {
     internal class Tirage
     {
-        private string PathFileOrigin = "listeOrigine.txt";
-        private string PathFile = "listeDeja.txt";
+        private string PathFileOrigin = "save/listeOrigine.txt";
+        private string PathFile = "save/listeDeja.txt";
         private List<string> liste;
         private List<string> deja;
 
