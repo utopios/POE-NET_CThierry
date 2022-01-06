@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +10,8 @@ namespace TpTheGreatTpList.Classes
 {
     internal class Tirage
     {
+        private string PathFileOrigin = "listeOrigine.txt";
+        private string PathFile = "listeDeja.txt";
         private List<string> liste;
         private List<string> deja;
 
@@ -16,18 +20,35 @@ namespace TpTheGreatTpList.Classes
 
         public Tirage()
         {
-            liste = new List<string>() { "Fabien", "Meriem", "Tarik", "Olive", "Patrick", "Jérôme", "Corentin", "Mickaël", "Youness", "Jamila", "Wildrid" };
+            liste = new List<string>();
             deja = new List<string>();
             Init();
         }
         private void Init()
         {
+            try
+            {
+                StreamReader reader = new StreamReader(PathFileOrigin);
+                string contentOrigine = reader.ReadToEnd();
+                liste = contentOrigine != "" ? JsonConvert.DeserializeObject<List<string>>(contentOrigine) : new List<string>();
+                reader.Close();
+                reader = new StreamReader(PathFile);
+                string content = reader.ReadToEnd();
+                deja = content !="" ? JsonConvert.DeserializeObject<List<string>>(content) : new List<string>();
+                reader.Close();
+            }
+            catch (Exception)
+            {
+                Save();
+            }
 
         }
 
         private void Save()
         {
-
+            StreamWriter writer = new StreamWriter(PathFile);
+            writer.WriteLine(JsonConvert.SerializeObject(deja));
+            writer.Close();
         }
 
         public string Pull()
