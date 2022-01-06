@@ -148,7 +148,7 @@ namespace LesGeneriques
                 Console.WriteLine(item);
             }
             Console.WriteLine("=======================");
-            Console.WriteLine("Je retire la valeur 10 ");
+            Console.WriteLine("Je retire la valeur 20 ");
             listeEntier.Remove(20);
 
             foreach (int item in listeEntier)
