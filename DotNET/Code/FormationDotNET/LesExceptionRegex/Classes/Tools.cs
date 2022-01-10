@@ -38,12 +38,14 @@ namespace LesExceptionRegex.Classes
 
         public static bool IsPhone(string phone)
         {
+            //string s ="+33 6 02 03 04 05";
             string pattern = @"^([+33|0]+)(\s|\.|\-)?([1-9]{1})(\.|\s|\-)?([0-9]{2}(\.|\s|\-)?){4}$";
             return Regex.IsMatch(phone, pattern);
         }
         public static bool IsEmail(string email)
         {
-            string pattern = @"^      $";
+            // anthony.d@mail.utopios.net
+            string pattern = @"^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,11})$";
             return Regex.IsMatch(email, pattern);
         }
     }

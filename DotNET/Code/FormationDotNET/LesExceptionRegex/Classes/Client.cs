@@ -72,7 +72,20 @@ namespace LesExceptionRegex.Classes
                 }
             }
         }
-        public string Email { get => email; set => email = value; }
+        public string Email { 
+            get => email;
+            set
+            {
+                if (Tools.IsEmail(value))
+                {
+                    email = value;
+                }
+                else
+                {
+                    throw new FormatException("Erreur de saisie de l'adresse email");
+                }
+            }
+        }
 
         public override string ToString()
         {

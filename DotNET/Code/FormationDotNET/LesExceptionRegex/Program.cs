@@ -13,6 +13,7 @@ namespace LesExceptionRegex
                 c.FirstName = "Anthony";
                 c.LastName = "Di Persio";
                 c.Telephone = "+33 6 02 03 04 05";
+                c.Email = "anthony.di-persio@mail.utopios.net";
             }
             catch (Exception e)
             {
