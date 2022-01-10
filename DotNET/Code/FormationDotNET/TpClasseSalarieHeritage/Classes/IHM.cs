@@ -126,6 +126,7 @@ namespace TpClasseSalarieHeritage.Classes
 
         private Salarie CreationSalarie()
         {
+            bool valid = false;
             Console.Write("Merci de saisir le nom : ");
             string nom = Console.ReadLine();
             Console.Write("Merci de saisir le matricule : ");
@@ -135,7 +136,20 @@ namespace TpClasseSalarieHeritage.Classes
             Console.Write("Merci de saisir le service : ");
             string service = Console.ReadLine();
             Console.Write("Merci de saisir le salaire : ");
-            double salaire = Convert.ToDouble(Console.ReadLine());
+            //double salaire = Convert.ToDouble(Console.ReadLine());
+            double salaire=0;
+            while (!valid)
+            {
+                try
+                {
+                    salaire = Convert.ToDouble(Console.ReadLine());
+                    valid = true;
+                }
+                catch (Exception e)
+                {
+                    Console.Write($"{e.Message} Veuillez saisir un Chiffre / nombre : ");
+                }
+            }
             return new Salarie(matricule, categorie, service, nom, salaire);
         }
 

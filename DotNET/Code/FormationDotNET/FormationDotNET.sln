@@ -225,7 +225,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesInterfaces", "LesInterfa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TpTheGreatTpList", "TpTheGreatTpList", "{B14462AA-F208-4769-A516-619A9F2EC62D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesExceptions", "LesExceptions\LesExceptions.csproj", "{55D68978-0E29-484F-BF58-7F966A524839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LesExceptions", "LesExceptions\LesExceptions.csproj", "{55D68978-0E29-484F-BF58-7F966A524839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LesExceptionRegex", "LesExceptionRegex\LesExceptionRegex.csproj", "{9AAAFB9A-E30B-46E2-8192-8F4B6F7EE132}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -525,6 +527,10 @@ Global
 		{55D68978-0E29-484F-BF58-7F966A524839}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55D68978-0E29-484F-BF58-7F966A524839}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55D68978-0E29-484F-BF58-7F966A524839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AAAFB9A-E30B-46E2-8192-8F4B6F7EE132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAAFB9A-E30B-46E2-8192-8F4B6F7EE132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAAFB9A-E30B-46E2-8192-8F4B6F7EE132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAAFB9A-E30B-46E2-8192-8F4B6F7EE132}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -620,6 +626,7 @@ Global
 		{A43794DF-9648-46D0-ABC0-594C16A2853E} = {130E5F56-7C76-4675-9776-077D0C8D5463}
 		{B14462AA-F208-4769-A516-619A9F2EC62D} = {C1210147-83C6-4C09-AB95-B974B8E419DD}
 		{55D68978-0E29-484F-BF58-7F966A524839} = {130E5F56-7C76-4675-9776-077D0C8D5463}
+		{9AAAFB9A-E30B-46E2-8192-8F4B6F7EE132} = {130E5F56-7C76-4675-9776-077D0C8D5463}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
