@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 using LesExceptionRegex.Classes;
 namespace LesExceptionRegex
 {
@@ -21,6 +22,24 @@ namespace LesExceptionRegex
             }
 
             Console.WriteLine(c);
+
+            try
+            {
+                c= new Client("Ihab","Abadi","+33.6.12.36.54.78","ihab@utopios.net");    
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            Console.WriteLine(c);
+
+            // Split
+            string[] tab = Regex.Split(c.Telephone,@"\.");
+            foreach (string s in tab)
+            {
+                Console.WriteLine(s);
+            }
 
             Console.WriteLine("Appuyez sur ENTER pour fermer le programme...");
             Console.Read();

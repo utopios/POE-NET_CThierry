@@ -89,7 +89,7 @@ namespace LesExceptionRegex.Classes
 
         public override string ToString()
         {
-            return $"Nom = {LastName} - Prénom = {FirstName} - Phone = {Telephone} - Email = {Email}";
+            return $"Id = {Id} - Nom = {LastName} - Prénom = {FirstName} - Phone = {Telephone} - Email = {Email}";
         }
     }
 }
