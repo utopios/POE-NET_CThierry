@@ -11,10 +11,10 @@ namespace LesDelegues
             // Utilisation du dlegate avec la méthode Addition ci-dessous
             c.Calcule(10.2, 11.5, Addition);
 
-            // utilisation du délégate avec une fonction anonyme (expression lambda)
+            // utilisation du délégate avec une fonction soustraction anonyme (expression lambda)
             c.Calcule(45.2, 23.6, delegate (double a, double b) { return a - b; });
 
-            // utilisation du délégate avec une fonction anonyme(expression lambda)
+            // utilisation du délégate avec une fonction multiplication anonyme(expression lambda)
             c.Calcule(45.2, 23.6, (double a, double b) => { return a * b; });
 
             // Si on à qu'une seule instruction pour le return (accolade facultatives)
