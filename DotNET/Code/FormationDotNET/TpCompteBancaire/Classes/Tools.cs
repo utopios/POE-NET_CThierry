@@ -27,4 +27,4 @@ namespace TpCompteBancaire.Classes
             return Regex.IsMatch(email, pattern);
         }
     }
-}
+}t
