@@ -325,12 +325,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "§§§ Script SQL §§§", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-ExerciceLivre", "4-ExerciceLivre", "{D93ED404-1569-4AC8-ACE8-3B6005CABD82}"
 	ProjectSection(SolutionItems) = preProject
+		Exercice2SQL\Reponse1.sql = Exercice2SQL\Reponse1.sql
+		Exercice2SQL\Reponse2.sql = Exercice2SQL\Reponse2.sql
+		Exercice2SQL\Reponse3.sql = Exercice2SQL\Reponse3.sql
+		Exercice2SQL\Reponse4.sql = Exercice2SQL\Reponse4.sql
+		Exercice2SQL\Reponse5.sql = Exercice2SQL\Reponse5.sql
+		Exercice2SQL\Reponse6.sql = Exercice2SQL\Reponse6.sql
+		Exercice2SQL\Reponse7.sql = Exercice2SQL\Reponse7.sql
+		Exercice2SQL\Reponse8.sql = Exercice2SQL\Reponse8.sql
+		Exercice2SQL\Reponse9.sql = Exercice2SQL\Reponse9.sql
 		SQL_Exercice2.pdf = SQL_Exercice2.pdf
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "§§§ Script SQL §§§", "§§§ Script SQL §§§", "{EC9BEA77-53B5-438A-873F-3A4F253C3937}"
 	ProjectSection(SolutionItems) = preProject
 		AjoutLivre.sql = AjoutLivre.sql
+		Exercice2SQL\CreationTable.sql = Exercice2SQL\CreationTable.sql
 	EndProjectSection
 EndProject
 Global
