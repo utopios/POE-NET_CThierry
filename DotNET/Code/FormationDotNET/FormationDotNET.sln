@@ -300,6 +300,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-FONCTIONS", "5-FONCTIONS"
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-JOINTURES", "6-JOINTURES", "{114A4A58-BA52-44AB-B280-9D2971FCF317}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\MesFormations\PerfectDotNetFormation\DecouverteSQL\2-CoursRequetesSQL-Banque\6-JOINTURES\1-INNER_JOIN.sql = ..\..\..\..\..\..\MesFormations\PerfectDotNetFormation\DecouverteSQL\2-CoursRequetesSQL-Banque\6-JOINTURES\1-INNER_JOIN.sql
+		..\..\..\..\..\..\MesFormations\PerfectDotNetFormation\DecouverteSQL\2-CoursRequetesSQL-Banque\6-JOINTURES\2-LEFT_OUTER_JOIN.sql = ..\..\..\..\..\..\MesFormations\PerfectDotNetFormation\DecouverteSQL\2-CoursRequetesSQL-Banque\6-JOINTURES\2-LEFT_OUTER_JOIN.sql
+		..\..\..\..\..\..\MesFormations\PerfectDotNetFormation\DecouverteSQL\2-CoursRequetesSQL-Banque\6-JOINTURES\3-RIGHT_OUTER_JOIN.sql = ..\..\..\..\..\..\MesFormations\PerfectDotNetFormation\DecouverteSQL\2-CoursRequetesSQL-Banque\6-JOINTURES\3-RIGHT_OUTER_JOIN.sql
+		..\..\..\..\..\..\MesFormations\PerfectDotNetFormation\DecouverteSQL\2-CoursRequetesSQL-Banque\6-JOINTURES\4-FULL_OUTER_JOIN.sql = ..\..\..\..\..\..\MesFormations\PerfectDotNetFormation\DecouverteSQL\2-CoursRequetesSQL-Banque\6-JOINTURES\4-FULL_OUTER_JOIN.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
