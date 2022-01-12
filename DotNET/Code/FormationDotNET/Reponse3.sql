@@ -1,0 +1,5 @@
+SELECT * FROM PERSONNE
+
+
+SELECT * FROM PERSONNE
+WHERE email = 'bernard.m@free.fr'

@@ -307,6 +307,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-JOINTURES", "6-JOINTURES"
 		..\..\..\..\..\..\MesFormations\PerfectDotNetFormation\DecouverteSQL\2-CoursRequetesSQL-Banque\6-JOINTURES\4-FULL_OUTER_JOIN.sql = ..\..\..\..\..\..\MesFormations\PerfectDotNetFormation\DecouverteSQL\2-CoursRequetesSQL-Banque\6-JOINTURES\4-FULL_OUTER_JOIN.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-ExercicePersonne", "3-ExercicePersonne", "{241F88D9-402A-4115-8E21-1E31F6F58A1A}"
+	ProjectSection(SolutionItems) = preProject
+		Reponse1.sql = Reponse1.sql
+		Reponse2.sql = Reponse2.sql
+		Reponse3.sql = Reponse3.sql
+		SQL_Exercice1.pdf = SQL_Exercice1.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "§§§ Script SQL §§§", "§§§ Script SQL §§§", "{340E5EB3-06DE-4523-9BBA-66B036DD3C55}"
+	ProjectSection(SolutionItems) = preProject
+		InjectionPersonne.sql = InjectionPersonne.sql
+		Reponse3.sql = Reponse3.sql
+		RestoreBDD.sql = RestoreBDD.sql
+		TablePersonne.sql = TablePersonne.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-ExerciceLivre", "4-ExerciceLivre", "{D93ED404-1569-4AC8-ACE8-3B6005CABD82}"
+	ProjectSection(SolutionItems) = preProject
+		SQL_Exercice2.pdf = SQL_Exercice2.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "§§§ Script SQL §§§", "§§§ Script SQL §§§", "{EC9BEA77-53B5-438A-873F-3A4F253C3937}"
+	ProjectSection(SolutionItems) = preProject
+		AjoutLivre.sql = AjoutLivre.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -737,6 +763,10 @@ Global
 		{E6CA8753-16EB-43EC-A357-4726C2F465B4} = {B813BB0E-7ADF-4562-AA51-915CDD756718}
 		{060570CC-758D-4240-AC5A-7E4B085BF2A6} = {B813BB0E-7ADF-4562-AA51-915CDD756718}
 		{114A4A58-BA52-44AB-B280-9D2971FCF317} = {B813BB0E-7ADF-4562-AA51-915CDD756718}
+		{241F88D9-402A-4115-8E21-1E31F6F58A1A} = {EEAF754A-9CD2-44D1-85A8-1F13A4C5ACF1}
+		{340E5EB3-06DE-4523-9BBA-66B036DD3C55} = {241F88D9-402A-4115-8E21-1E31F6F58A1A}
+		{D93ED404-1569-4AC8-ACE8-3B6005CABD82} = {EEAF754A-9CD2-44D1-85A8-1F13A4C5ACF1}
+		{EC9BEA77-53B5-438A-873F-3A4F253C3937} = {D93ED404-1569-4AC8-ACE8-3B6005CABD82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
