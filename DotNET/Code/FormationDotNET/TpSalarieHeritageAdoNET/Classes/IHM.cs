@@ -151,7 +151,7 @@ namespace TpSalarieHeritageAdoNET.Classes
                 }
                 catch (Exception e)
                 {
-                    Console.Write($"{e.Message} Veuillez saisir un Chiffre / nombre : ");
+                    Console.Write($"{e.Message} \n\tVeuillez saisir un Chiffre / nombre : ");
                 }
             }
 
@@ -216,7 +216,6 @@ namespace TpSalarieHeritageAdoNET.Classes
             {
                 Console.WriteLine("Aucun employés avec ce nom.");
             }
-
         }
     }
 }
