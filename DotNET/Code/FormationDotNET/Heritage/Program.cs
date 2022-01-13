@@ -50,7 +50,7 @@ namespace Heritage
 
             Afficher(rex);
 
-            // Convertion
+            // Conversion
             for (int i = 0; i < tab.Length; i++)
             {
                 //1ere Solution Boxing => Unboxing
@@ -60,7 +60,7 @@ namespace Heritage
                     Afficher(c);
                 }
 
-                // 2 eme solution => Utiliser le mot clé "as" pour effectuer la convertion
+                // 2 eme solution => Utiliser le mot clé "as" pour effectuer la conversion
                 Vache v = tab[i] as Vache;
                 if (v != null)
                     Afficher(v);

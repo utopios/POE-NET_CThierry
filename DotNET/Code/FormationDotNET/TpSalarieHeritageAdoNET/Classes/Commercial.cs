@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TpSalarieHeritageAdoNET.Data;
 
 namespace TpSalarieHeritageAdoNET.Classes
 {
@@ -34,6 +36,32 @@ namespace TpSalarieHeritageAdoNET.Classes
         public void AfficherCommercial()
         {
             Console.WriteLine($"Je suis un super commercial");
+        }
+
+        public override int Ajouter()
+        {
+            // Instance de l'objet SqlConnection (Classe DataBase)
+            SqlConnection connection = DataBase.Connection;
+            // Redaction de la requete
+            string request = "INSERT INTO COMMERCIAL (nom,matricule,categorie,service,salaire,chiffre,commission) OUTPUT INSERTED.id VALUES (@Nom,@Mat,@Categorie,@Service,@Salaire,@Ca,@Com)";
+            // Instanciation de l'objet Command avec la requete et la connection;
+            SqlCommand command = new SqlCommand(request, connection);
+            // Rédaction des Parameters
+            command.Parameters.Add(new SqlParameter("@Nom", Nom));
+            command.Parameters.Add(new SqlParameter("@Mat", Matricule));
+            command.Parameters.Add(new SqlParameter("@Categorie", Categorie));
+            command.Parameters.Add(new SqlParameter("@Service", Service));
+            command.Parameters.Add(new SqlParameter("@Salaire", Salaire));
+            command.Parameters.Add(new SqlParameter("@Ca", ChiffreAffaire));
+            command.Parameters.Add(new SqlParameter("@Com", Commission));
+            // Ouvrir la connection vers la BDD
+            connection.Open();
+            // Execution de la requête
+            int Id = (int)command.ExecuteScalar();
+            command.Dispose();
+            // Fermeture de la connection vers la BDD
+            connection.Close();
+            return Id;
         }
 
         public override string ToString()

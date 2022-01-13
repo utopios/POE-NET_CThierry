@@ -9,7 +9,7 @@ namespace TpSalarieHeritageAdoNET.Classes
     internal class IHM
     {
         List<Salarie> employes;
-        int maxEmployes = 20;
+
         public IHM()
         {
             employes = Salarie.ListSalaries();
@@ -102,20 +102,23 @@ namespace TpSalarieHeritageAdoNET.Classes
             switch (choix2)
             {
                 case "1":
-                    s=CreationSalarie();
-                    s.AjouterSalarie();
+                    s = CreationSalarie();
+                    s.Id = s.Ajouter();
+                    employes.Add(s);
                     break;
                 case "2":
-                    s=CreationCommercial();
+                    s = CreationCommercial();
+                    s.Id = s.Ajouter();
+                    employes.Add(s);
                     break;
                 case "0":
                     break;
             }
-            if ( s != null)
+            if (s != null)
             {
                 for (int i = 0; i < employes.Count; i++)
                 {
-                    if (employes[i]==null)
+                    if (employes[i] == null)
                     {
                         employes[i] = s;
                         break;
@@ -138,7 +141,7 @@ namespace TpSalarieHeritageAdoNET.Classes
             string service = Console.ReadLine();
             Console.Write("Merci de saisir le salaire : ");
             //double salaire = Convert.ToDouble(Console.ReadLine());
-            double salaire=0;
+            double salaire = 0;
             while (!valid)
             {
                 try
@@ -151,9 +154,8 @@ namespace TpSalarieHeritageAdoNET.Classes
                     Console.Write($"{e.Message} Veuillez saisir un Chiffre / nombre : ");
                 }
             }
-            Salarie s = new Salarie(matricule, categorie, service, nom, salaire);
-            employes.Add(s);
-            return s;
+
+            return new Salarie(matricule, categorie, service, nom, salaire); ;
         }
 
         private Commercial CreationCommercial()
@@ -163,7 +165,8 @@ namespace TpSalarieHeritageAdoNET.Classes
             double chiffreAffaire = Convert.ToDouble(Console.ReadLine());
             Console.Write("Merci de saisir le taux de commission : ");
             double commission = Convert.ToDouble(Console.ReadLine());
-            return new Commercial(tmp.Matricule,tmp.Categorie,tmp.Service, tmp.Nom,tmp.Salaire,chiffreAffaire, commission); ;
+
+            return new Commercial(tmp.Matricule, tmp.Categorie, tmp.Service, tmp.Nom, tmp.Salaire, chiffreAffaire, commission); ;
         }
 
         private void SalaireEmployes()
@@ -171,23 +174,18 @@ namespace TpSalarieHeritageAdoNET.Classes
             Console.WriteLine("=== Salaire des employés ===");
             for (int i = 0; i < employes.Count; i++)
             {
-                if (employes[i]!=null)
+                Console.WriteLine("-----------------------");
+                Console.WriteLine(employes[i].GetType());
+                Console.WriteLine(employes[i]);
+
+                if (employes[i] is Commercial c)
                 {
-                    Console.WriteLine("-----------------------");
-                    Console.WriteLine(employes[i].GetType());
-                    Console.WriteLine(employes[i]);
-
-                    if (employes[i] is Commercial c)
-                    {
-                        c.AfficherCommercial();
-                    }
-
-                    employes[i].CalculerSalaire();
-
-                    Console.WriteLine("-----------------------");
+                    c.AfficherCommercial();
                 }
-                else
-                    break;
+
+                employes[i].CalculerSalaire();
+
+                Console.WriteLine("-----------------------");
             }
         }
 
@@ -207,7 +205,7 @@ namespace TpSalarieHeritageAdoNET.Classes
                 {
                     s = employes[i];
                     break;
-                }                
+                }
             }
 
             if (s != null)

@@ -50,15 +50,15 @@ namespace TpSalarieHeritageAdoNET.Classes
 
         public override string ToString()
         {
-            return $"Le suis salarié";
+            return $"Je suis salarié";
         }
 
-        public bool AjouterSalarie()
+        public virtual int Ajouter()
         {
             // Instance de l'objet SqlConnection (Classe DataBase)
             SqlConnection connection = DataBase.Connection;
             // Redaction de la requete
-            string request = "INSERT INTO SALARIE (nom,matricule,categorie,service,salaire) VALUES (@Nom,@Mat,@Categorie,@Service,@Salaire)";
+            string request = "INSERT INTO SALARIE (nom,matricule,categorie,service,salaire) OUTPUT INSERTED.Id VALUES (@Nom,@Mat,@Categorie,@Service,@Salaire)";
             // Instanciation de l'objet Command avec la requete et la connection;
             SqlCommand command = new SqlCommand(request, connection);
             // Rédaction des Parameters
@@ -70,12 +70,11 @@ namespace TpSalarieHeritageAdoNET.Classes
             // Ouvrir la connection vers la BDD
             connection.Open();
             // Execution de la requête
-            int nbLigne = command.ExecuteNonQuery();
-            // Libération de l'objet command
+            int Id = (int)command.ExecuteScalar();
             command.Dispose();
             // Fermeture de la connection vers la BDD
             connection.Close();
-            return nbLigne > 0 ? true : false;
+            return Id;
         }
 
         public static List<Salarie> ListSalaries()
@@ -91,6 +90,19 @@ namespace TpSalarieHeritageAdoNET.Classes
                 Salarie s = new Salarie() { Id = reader.GetInt32(0), Nom=reader.GetString(1),Matricule = reader.GetString(2),Categorie = reader.GetString(3),Service = reader.GetString(4), Salaire=reader.GetDouble(5) };
                 liste.Add(s);
             }
+            reader.Close();
+            command.Dispose();
+            request = "SELECT * FROM COMMERCIAL";
+            command = new SqlCommand(request, connection);
+            reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                Salarie s = new Commercial() { Id = reader.GetInt32(0), Nom = reader.GetString(1), Matricule = reader.GetString(2), Categorie = reader.GetString(3), Service = reader.GetString(4), Salaire = reader.GetDouble(5), ChiffreAffaire =reader.GetDouble(6), Commission = reader.GetDouble(7)};
+                liste.Add(s);
+            }
+            reader.Close();
+            command.Dispose();
+            connection.Close();
             return liste;
         } 
     }
