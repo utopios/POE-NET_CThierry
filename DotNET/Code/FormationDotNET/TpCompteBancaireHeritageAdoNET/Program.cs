@@ -1,4 +1,5 @@
 ﻿using System;
+using TpCompteBancaireHeritageAdoNET.Classes;
 
 namespace TpCompteBancaireHeritageAdoNET
 {
@@ -6,7 +7,8 @@ namespace TpCompteBancaireHeritageAdoNET
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IHM ihm = new IHM();
+            ihm.Start();
         }
     }
 }

@@ -43,7 +43,7 @@ namespace TpCompteBancaireHeritageAdoNET.Classes
             SqlConnection connection = DataBase.Connection;
             string request = "INSERT INTO operation (idCompte,dateOperation,montant) VALUES (@IdCompte,@DateOpe,@Montant)";
             SqlCommand command = new SqlCommand(request, connection);
-            command.Parameters.Add(new SqlParameter("@IdCompte", IdCompte));
+            command.Parameters.Add(new SqlParameter("@IdCompte", id));
             command.Parameters.Add(new SqlParameter("@DateOpe", DateOperation));
             command.Parameters.Add(new SqlParameter("@Montant", Montant));
 
@@ -58,7 +58,7 @@ namespace TpCompteBancaireHeritageAdoNET.Classes
         {
             List<Operation> liste = new List<Operation>();
             SqlConnection connection = DataBase.Connection;
-            string request = "Select * FROM operation WHERE idCompte= @IdCompte ";
+            string request = "SELECT * FROM operation WHERE idCompte= @IdCompte ";
             SqlCommand command = new SqlCommand(request, connection);
             command.Parameters.Add(new SqlParameter("@IdCompte", c.Id));
             connection.Open();
@@ -71,7 +71,7 @@ namespace TpCompteBancaireHeritageAdoNET.Classes
             reader.Close();
             command.Dispose();
             connection.Close();
-            return liste;
+            return liste;            
         }
     }
 }
