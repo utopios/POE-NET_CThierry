@@ -51,9 +51,9 @@ namespace TpCompteBancaireHeritageAdoNET.Classes
 
         public override bool Depot(Operation operation)
         {
-            if (operation.Montant>0 && Solde >= Math.Abs(operation.Montant) + CoutOperation)
+            if (operation.Montant>coutOperation)
             {
-                if (base.Retrait(operation))
+                if (base.Depot(operation))
                 {
                     return base.Retrait(new Operation(CoutOperation * -1));
                 }
