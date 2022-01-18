@@ -47,5 +47,16 @@ namespace CoursWPF
             ListBoxView.ItemsSource = personList;
         }
 
+        private void Afficher_Click(object sender, RoutedEventArgs e)
+        {
+            string tmp = UserInput.Text;
+            AfficherMessage.Text = tmp;
+        }
+
+        private void Effacer_Click(object sender, RoutedEventArgs e)
+        {
+            UserInput.Text="";
+            AfficherMessage.Text = "";
+        }
     }
 }

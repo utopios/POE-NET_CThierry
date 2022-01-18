@@ -8,7 +8,14 @@
         Title="ListViewWindow" Height="450" Width="800">
     <UniformGrid Columns="2">
         <StackPanel>
-            
+            <Label Content="Message : "/>
+            <TextBox x:Name="UserInput" Height="100"/>
+            <Button Content="Afficher" Margin="0 10 0 10" Click="Afficher_Click"/>
+            <Button Content="Effacer" Margin="0 10 0 10" Click="Effacer_Click"/>
+            <Separator/>
+            <TextBlock x:Name="AfficherMessage" Height="100"/>
+            <Separator/>
+            <TextBlock x:Name="AfficherMessageBinding" Height="100" Text="{Binding ElementName=UserInput, Path=Text}"/>
         </StackPanel>
         <StackPanel>
             <ListView x:Name="ListBoxView" Height="433" ScrollViewer.VerticalScrollBarVisibility="Visible">
