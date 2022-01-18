@@ -14,10 +14,10 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace CoursWPF
-{    
+{
     public partial class MainWindow : Window
     {
-        
+
         public MainWindow()
         {
             InitializeComponent();
@@ -38,14 +38,14 @@ namespace CoursWPF
             a.Click += Button_Click;
             MyStackPanel.Children.Add(a);
         }
-        
+
         private void MakeMenu()
         {
             Button b = new Button()
             {
                 Content = "Bouton 1",
                 Foreground = Brushes.Black,
-                Background = Brushes.Green                
+                Background = Brushes.Green
             };
             b.Click += BtnMenu_Click;
             MyStackPanel.Children.Add(b);
@@ -74,8 +74,8 @@ namespace CoursWPF
         }
         private void BtnMenu_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("MakeMenuBTn Clické", "Information Click",MessageBoxButton.OK, MessageBoxImage.Information);
-        }       
+            MessageBox.Show("MakeMenuBTn Clické", "Information Click", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
 
         private void Edition_Click(object sender, RoutedEventArgs e)
         {
@@ -99,7 +99,16 @@ namespace CoursWPF
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            Environment.Exit(0);
+            MessageBoxResult result = MessageBox.Show("Etes-vous sur de vouloir quitter l'application?", "Quitter?", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            switch (result)
+            {
+                case MessageBoxResult.Yes:
+                    Environment.Exit(0);
+                    break;
+                case MessageBoxResult.No:
+                    break;
+            }
+            
         }
 
         private void Event_Click(object sender, RoutedEventArgs e)
@@ -111,7 +120,7 @@ namespace CoursWPF
 
         private void Ok_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("Salut Olive!");
         }
 
         private void Valider_Click(object sender, RoutedEventArgs e)
