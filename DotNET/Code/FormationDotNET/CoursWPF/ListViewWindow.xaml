@@ -9,13 +9,13 @@
     <UniformGrid Columns="2">
         <StackPanel>
             <Label Content="Message : "/>
-            <TextBox x:Name="UserInput" Height="100"/>
+            <TextBox x:Name="UserInput" Height="100" Padding="10px"/>
             <Button Content="Afficher" Margin="0 10 0 10" Click="Afficher_Click"/>
             <Button Content="Effacer" Margin="0 10 0 10" Click="Effacer_Click"/>
             <Separator/>
-            <TextBlock x:Name="AfficherMessage" Height="100"/>
+            <TextBlock x:Name="AfficherMessage" Height="100" Padding="10px"/>
             <Separator/>
-            <TextBlock x:Name="AfficherMessageBinding" Height="100" Text="{Binding ElementName=UserInput, Path=Text}"/>
+            <TextBlock x:Name="AfficherMessageBinding" Height="100" Text="{Binding ElementName=UserInput, Path=Text}" Padding="10px"/>
         </StackPanel>
         <StackPanel>
             <ListView x:Name="ListBoxView" Height="433" ScrollViewer.VerticalScrollBarVisibility="Visible">

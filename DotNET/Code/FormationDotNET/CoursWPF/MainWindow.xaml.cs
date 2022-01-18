@@ -77,11 +77,6 @@ namespace CoursWPF
             MessageBox.Show("MakeMenuBTn Clické", "Information Click", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
-        private void Edition_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Nouveau_Click(object sender, RoutedEventArgs e)
         {
 
@@ -126,6 +121,12 @@ namespace CoursWPF
         private void Valider_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void Image_Click(object sender, RoutedEventArgs e)
+        {
+            ImageWindow imageWindow = new ImageWindow();
+            imageWindow.Show();
         }
     }
 }

@@ -17,7 +17,7 @@
                     <MenuItem Header="Exit" Click="Exit_Click"/>
 
                 </MenuItem>
-                <MenuItem Header="Edition" Click="Edition_Click"/>
+                <MenuItem Header="Images" Click="Image_Click"/>
                 <MenuItem Header="Affichage"/>
             </Menu>
             <TextBlock Text="Mon Texte Block"/>
