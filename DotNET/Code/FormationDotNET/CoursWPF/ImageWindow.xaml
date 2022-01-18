@@ -1,0 +1,19 @@
+﻿<Window x:Class="CoursWPF.ImageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoursWPF"
+        mc:Ignorable="d"
+        Title="ImageWindow" Height="450" Width="800">
+    <Grid>
+        <DockPanel x:Name="ImagesDockPanel" VerticalAlignment="Top">
+            <Image x:Name="Img0" Source="https://pngquant.org/Ducati_side_shadow-fs8.png"/>
+            <Image x:Name="Img1" Source="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__480.jpg" Visibility="Collapsed"/>
+            <Image x:Name="Img2" Source="https://t4.ftcdn.net/jpg/02/47/57/21/360_F_247572130_spoD8QDVMaOJc6oUqOpuHBkfZ1dRkAaT.jpg" Visibility="Collapsed"/>
+        </DockPanel>
+        <StackPanel VerticalAlignment="Bottom">
+            <Button Height="40" Content="Changer Image" FontSize="15" FontWeight="Bold" FontFamily="Consolas" Click="Changer_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
