@@ -367,6 +367,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TpListePersonneWPF", "TpLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpNombreMystereWPF", "TpNombreMystereWPF\TpNombreMystereWPF.csproj", "{E2036CBE-154F-4222-AD53-32936CC6861E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TpCompteBancaireAdoWPF", "TpCompteBancaireAdoWPF\TpCompteBancaireAdoWPF.csproj", "{20C6DEA5-C943-4D27-BFC8-D08E4D9ACAA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -709,6 +711,10 @@ Global
 		{E2036CBE-154F-4222-AD53-32936CC6861E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2036CBE-154F-4222-AD53-32936CC6861E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2036CBE-154F-4222-AD53-32936CC6861E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C6DEA5-C943-4D27-BFC8-D08E4D9ACAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C6DEA5-C943-4D27-BFC8-D08E4D9ACAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C6DEA5-C943-4D27-BFC8-D08E4D9ACAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C6DEA5-C943-4D27-BFC8-D08E4D9ACAA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -835,6 +841,7 @@ Global
 		{8AEF989F-4AE7-4F95-A0BB-F061C3D49A9B} = {602A59DD-77F6-429C-82E2-8F929A0FD489}
 		{16CD67F6-9020-4493-9102-0939518ACF13} = {E4232131-6559-4DFD-8D76-FD6F59864262}
 		{E2036CBE-154F-4222-AD53-32936CC6861E} = {E4232131-6559-4DFD-8D76-FD6F59864262}
+		{20C6DEA5-C943-4D27-BFC8-D08E4D9ACAA5} = {E4232131-6559-4DFD-8D76-FD6F59864262}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}

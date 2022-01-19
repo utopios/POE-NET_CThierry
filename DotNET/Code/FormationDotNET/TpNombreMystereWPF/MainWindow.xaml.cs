@@ -14,10 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace TpNombreMystereWPF
-{
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+{    
     public partial class MainWindow : Window
     {
         #region Attributs
@@ -34,43 +31,78 @@ namespace TpNombreMystereWPF
 
         private void Start()
         {
-            int nbMystere = aleatoire.Next(1, 51);
-            int nbCoups = 0;
-            TextBoxResult1.Text = "test";
-            TextBoxResult2.Text = nbMystere.ToString();
+            nbMystere = aleatoire.Next(1, 51);
+            nbCoups = 0;
+            TextBoxResult1.Text = "";
+            TextBoxResult2.Text = "Veuillez saisir un chiffre/Nombre";
+            UpdateNbCoups();
+            TBoxNbUser.Focus();
         }
 
         private void Valider_Click(object sender, RoutedEventArgs e)
         {
-
+            int nbUser = TryRead(TBoxNbUser.Text);
+            if(nbUser != -1)
+                Comparer(nbUser);            
         }
-
         private void NewGame_Click(object sender, RoutedEventArgs e)
         {
-
+            Start();
         }
 
-        private void PlusGrand()
+        private int TryRead(string text)
         {
-            
-        }
+            int tmp=-1;
+            try
+            {
+                tmp = Convert.ToInt32(text);
+            }
+            catch (Exception)
+            {
+                TextBoxResult1.Text = "Erreur de saisie...";
+                TBoxNbUser.Text = ""; 
+            }
+            return tmp;
+        }       
 
-        private void PlusPetit()
+
+        private void DisplayResult(string result)
         {
-
+            TextBoxResult1.Text = $"C'est {result}...!";
+            TBoxNbUser.Text = "";
+            UpdateNbCoups();
         }
+
+        private void UpdateNbCoups()
+        {            
+            TBNbEssais.Text = $"Nombre d'essais : {nbCoups} ";
+        }
+
         private void Win()
         {
-
+            UpdateNbCoups();
+            TBoxNbUser.Text = "";
+            TextBoxResult1.Text = $"Bravo !!! Vous avez trouvé en {nbCoups} coups!";
+            TextBoxResult2.Text = $"Le nombre mystère était {nbMystere}";
         }
+
         void Comparer(int nbUser)
         {
+            nbCoups++;
             if (nbUser == nbMystere)
                 Win();
             else if (nbUser < nbMystere)
-                PlusGrand();
+                DisplayResult("plus");
             else
-                PlusPetit();
+                DisplayResult("moins");
+        }
+
+        private void TextBoxNbUser_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                Valider_Click(sender, e);
+            }
         }
     }
 }
