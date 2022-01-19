@@ -21,22 +21,7 @@ namespace Exercice28_WhileNbMystere
                 Console.Write("\tVeuillez saisir un nombre : ");
                 int nbTmp= Convert.ToInt32(Console.ReadLine());
                 nbCoups++;
-                if (nbTmp == nbMystere )
-                {
-                    trouve = true;
-                }
-                else if (nbTmp < nbMystere)
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\t\tLe nombre mystere est plus grand");
-                    Console.ForegroundColor = ConsoleColor.White;
-                }
-                else
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\t\tLe nombre mystere est plus petit");
-                    Console.ForegroundColor = ConsoleColor.White;
-                }
+                Comparer(nbTmp);               
             }
             #endregion
 
@@ -48,6 +33,28 @@ namespace Exercice28_WhileNbMystere
 
             #endregion
             Console.Read();
+
+            void PlusGrand()
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\t\tLe nombre mystere est plus grand");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            void PlusPetit()
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\t\tLe nombre mystere est plus petit");
+                Console.ForegroundColor = ConsoleColor.White;
+            }
+            void Comparer(int nbUser)
+            {
+                if (nbUser == nbMystere)                
+                    trouve = true;                
+                else if (nbUser < nbMystere)                
+                    PlusGrand();                
+                else                
+                    PlusPetit();                
+            }
         }
     }
 }
