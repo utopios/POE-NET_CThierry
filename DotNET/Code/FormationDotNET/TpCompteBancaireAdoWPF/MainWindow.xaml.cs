@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using TpCompteBancaireAdoWPF.Classes;
+using TpCompteBancaireAdoWPF.View;
 
 namespace TpCompteBancaireAdoWPF
 {
@@ -28,8 +29,9 @@ namespace TpCompteBancaireAdoWPF
         }
 
         private void NouveauCompte_Click(object sender, RoutedEventArgs e)
-        {           
-            
+        {
+            CreateWindow c = new CreateWindow();
+            c.Show();
         }
 
         private void RechercherCompte_Click(object sender, RoutedEventArgs e)
