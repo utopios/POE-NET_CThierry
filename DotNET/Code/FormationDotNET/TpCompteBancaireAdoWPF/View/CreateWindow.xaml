@@ -5,8 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TpCompteBancaireAdoWPF.View"
         mc:Ignorable="d"
-        Title="CreateWindow" Height="450" Width="800">
+        Title="CreateWindow" Height="290" Width="580" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        
+        <GroupBox Header="Création Compte">
+            <StackPanel>
+                <GroupBox Header="Création Client">
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Nom : "/>
+                            <TextBox x:Name="TbxNom" Width="200" Margin="5" VerticalContentAlignment="Center" Foreground="Red"/>
+                            <Label Content="Prénom : "/>
+                            <TextBox x:Name="TbxPrenom" Width="200" Margin="5" VerticalContentAlignment="Center" Foreground="Red"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Téléphone : "/>
+                            <TextBox x:Name="TbxPhone" Width="200" Margin="5" VerticalContentAlignment="Center" Foreground="Red"/>
+                            <Label Content="Id CLient : " Margin="50,-3,0,0" VerticalAlignment="Center" VerticalContentAlignment="Center"/>
+                            <TextBlock x:Name="TbPhone" Width="200" Margin="5" VerticalAlignment="Center" Foreground="Red"/>
+                        </StackPanel>                        
+                        <Button  Content="Ajouter" Margin="5" Click="AddUser_Click"/>
+                    </StackPanel>
+                </GroupBox>
+                <GroupBox Header="Création du compte">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Solde : "/>
+                            <TextBox x:Name="TbxSolde" Width="200" Margin="5" VerticalContentAlignment="Center" Foreground="Red"/>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+                <Button x:Name="BtnAjouterCompte" Content="Ajouter Compte" Margin="0 10 0 5" Click="AjouterCompte_Click"/>
+                <Button x:Name="BtnFermer" Content="Fermer" Margin="0 5"  Click="Fermer_Click"/>
+            </StackPanel>
+        </GroupBox>
     </Grid>
 </Window>

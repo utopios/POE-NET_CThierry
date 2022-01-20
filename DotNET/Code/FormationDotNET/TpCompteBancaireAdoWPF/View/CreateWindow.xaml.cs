@@ -23,5 +23,22 @@ namespace TpCompteBancaireAdoWPF.View
         {
             InitializeComponent();
         }
+
+        private void Fermer_Click(object sender, RoutedEventArgs e)
+        {           
+            //MainWindow m = new MainWindow();
+            //m.Show();
+            this.Close();
+        }
+
+        private void AjouterCompte_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void AddUser_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

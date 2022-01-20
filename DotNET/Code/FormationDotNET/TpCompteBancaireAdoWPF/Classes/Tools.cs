@@ -11,7 +11,7 @@ namespace TpCompteBancaireAdoWPF.Classes
     {
         public static bool IsName(string name)
         {
-            string pattern = @"^([A-Z]{1})([a-zA-Z\s\-]*)$";
+            string pattern = @"^([A-Z]{1})([a-zA-Zéë\s\-]*)$";
             return Regex.IsMatch(name, pattern);
         }
         public static bool IsPhone(string phone)

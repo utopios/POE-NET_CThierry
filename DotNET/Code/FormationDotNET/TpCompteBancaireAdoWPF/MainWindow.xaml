@@ -16,32 +16,32 @@
                 <StackPanel>
                     <GroupBox Header="Recherche" >
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                            <Label Content="ID Compte : "/>
+                            <Label Content="ID Compte : " VerticalContentAlignment="Center"/>
                             <TextBox x:Name="TBxIdCompte" VerticalContentAlignment="Center" Width="400"/>
                             <Button Content="Rechercher Compte" Click="RechercherCompte_Click" Margin="20,0,0,0"/>
                         </StackPanel>                       
                     </GroupBox>
                     <GroupBox Header="Client">
                         <StackPanel Orientation="Horizontal">
-                            <Label Content="Nom : "/>
-                            <TextBlock x:Name="TbNom" Foreground="Red"/>
-                            <Label Content="Prenom : "/>
-                            <TextBlock x:Name="TbPrenom" Foreground="Red"/>
-                            <Label Content="Téléphone : "/>
-                            <TextBlock x:Name="TbTelephone" Foreground="Red"/>
+                            <Label Content="Nom : " VerticalContentAlignment="Center"/>
+                            <TextBlock x:Name="TbNom" Foreground="Red" VerticalAlignment="Center"/>
+                            <Label Content="Prenom : " VerticalContentAlignment="Center" Margin="20,0,10,0"/>
+                            <TextBlock x:Name="TbPrenom" Foreground="Red" VerticalAlignment="Center"/>
+                            <Label Content="Téléphone : " VerticalContentAlignment="Center" Margin="20,0,10,0"/>
+                            <TextBlock x:Name="TbTelephone" Foreground="Red" VerticalAlignment="Center"/>
                         </StackPanel>                        
                     </GroupBox>
                     <GroupBox Header="Compte">
                         <StackPanel >
                             <StackPanel Orientation="Horizontal">
-                                <Label Content="Id du Compte : "/>
-                                <TextBlock x:Name="TBIdCompte" Foreground="Red"/>
+                                <Label Content="Id du Compte : " VerticalContentAlignment="Center"/>
+                                <TextBlock x:Name="TBIdCompte" Foreground="Red" VerticalAlignment="Center"/>
                             </StackPanel>
                             <StackPanel Orientation="Horizontal">
-                                <Label Content="Solde : "/>
-                                <TextBlock x:Name="TBSolde" Foreground="Red"/>
+                                <Label Content="Solde : " VerticalContentAlignment="Center"/>
+                                <TextBlock x:Name="TBSolde" Foreground="Red" VerticalAlignment="Center"/>
                             </StackPanel>
-                            <Label Content="Liste des Opérations" HorizontalAlignment="Center" FontSize="15px"/>
+                            <Label Content="Liste des Opérations" VerticalContentAlignment="Center" FontSize="15px"/>
                             <ListView x:Name="ListeWiewOperation" Height="200" ScrollViewer.VerticalScrollBarVisibility="Visible">
                                 <ListView.View>
                                     <GridView>
