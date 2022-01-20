@@ -1,0 +1,11 @@
+﻿DROP TABLE CONTACT;
+
+CREATE TABLE CONTACT
+(
+	[Id] INT IDENTITY (1, 1) NOT NULL, 
+    [lastname] VARCHAR(50) NOT NULL, 
+    [firstname] VARCHAR(50) NOT NULL, 
+    [phone] VARCHAR(17) NOT NULL,
+    [email] VARCHAR(50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+)
