@@ -5,11 +5,15 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
-    <ApplicationIcon>bin\Release\net6.0-windows\img\Icone.ico</ApplicationIcon>
+    <ApplicationIcon>icone.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="bin\Release\net6.0-windows\img\Icone.ico" />
+    <Content Include="icone.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\net6.0-windows\img\" />
   </ItemGroup>
 
 </Project>
