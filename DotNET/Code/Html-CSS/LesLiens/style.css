@@ -1,0 +1,14 @@
+nav>a{
+    text-decoration: none;
+    color: rgb(42, 75, 165);
+}
+
+nav>a:hover{
+    color:#ff6810;
+    font-weight: bold;
+}
+
+#BarNav{
+    text-decoration: none;
+    color: rgb(42, 165, 159);
+}

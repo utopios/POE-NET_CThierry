@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Les tableaux</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="banniere">
+                <img src="img/HTML5-CSS3.jpg" alt="Logo langage HMTL5 et CSS3" class="imageBanniere" />
+                <span class="textBan">&lt;<em>Memo</em><strong>HTML</strong>.free.fr&gt;</span>
+                <img src="img/HTML5-CSS3.jpg" alt="Logo langage HMTL5 et CSS3" class="imageBanniere" />
+            </div>
+            <nav class="btnNav">
+                <a href="index.html">Les Bases</a> -
+                <a href="architecture.html">Architecture</a> -
+                <a href="texte.html">Texte</a> -
+                <a href="tableaux.html">Les Tableaux</a> -
+                <a href="listes.html">Les Listes</a> -
+                <a href="formulaire.html">Formulaire</a> -
+                <a href="medias.html">Médias</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Les tableaux en HTML</h1>
+            <section>
+                <div class="tabIndex">
+                    <table>
+                        <caption>CSS: Sans border-collapse</caption>
+                        <thead>
+                            <th></th>
+                            <th>Titre Col1</th>
+                            <th>Titre Col2</th>
+                            <th>Titre Col3</th>
+                        </thead>
+                        <tr>
+                            <th>Ligne 1</th>
+                            <td>cel 0-0</td>
+                            <td>cel 0-1</td>
+                            <td>cel 0-2</td>
+                        </tr>
+                        <tr>
+                            <th>Ligne 2</th>
+                            <td>cel 1-0</td>
+                            <td>cel 1-1</td>
+                            <td>cel 1-2</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="tabIndex">
+                    <table class="bdCollapse">
+                        <caption>CSS: border-collapse: collapse;</caption>
+                        <thead>
+                            <th></th>
+                            <th>Titre Col1</th>
+                            <th>Titre Col2</th>
+                            <th>Titre Col3</th>
+                        </thead>
+                        <tr>
+                            <th>Ligne 1</th>
+                            <td>cel 0-0</td>
+                            <td>cel 0-1</td>
+                            <td>cel 0-2</td>
+                        </tr>
+                        <tr>
+                            <th>Ligne 2</th>
+                            <td>cel 1-0</td>
+                            <td>cel 1-1</td>
+                            <td>cel 1-2</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section class="code">
+                <h3>HTML :</h3>
+                <textarea cols="90" rows="50">
+                    <div class="tabIndex">
+                        <table>
+                            <caption>CSS: Sans border-collapse</caption>
+                            <thead>
+                                <th></th>
+                                <th>Titre Col1</th>
+                                <th>Titre Col2</th>
+                                <th>Titre Col3</th>
+                            </thead>
+                            <tr>
+                                <th>Ligne 1</th>
+                                <td>cel 0-0</td>
+                                <td>cel 0-1</td>
+                                <td>cel 0-2</td>
+                            </tr>
+                            <tr>
+                                <th>Ligne 2</th>
+                                <td>cel 1-0</td>
+                                <td>cel 1-1</td>
+                                <td>cel 1-2</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tabIndex">
+                        <table class="bdCollapse">
+                            <caption>CSS: border-collapse: collapse;</caption>
+                            <thead>
+                                <th></th>
+                                <th>Titre Col1</th>
+                                <th>Titre Col2</th>
+                                <th>Titre Col3</th>
+                            </thead>
+                            <tr>
+                                <th>Ligne 1</th>
+                                <td>cel 0-0</td>
+                                <td>cel 0-1</td>
+                                <td>cel 0-2</td>
+                            </tr>
+                            <tr>
+                                <th>Ligne 2</th>
+                                <td>cel 1-0</td>
+                                <td>cel 1-1</td>
+                                <td>cel 1-2</td>
+                            </tr>
+                        </table>
+                    </div>
+                </textarea>
+            </section>
+            <section class="code">
+                <h3>CSS :</h3>
+                <textarea cols="90" rows="25">
+                    .tabIndex{
+                        margin-top: 40px;
+                        margin-bottom:40px;
+                        align-items: center;
+                        align-content: center;
+                        display: flex;
+                        flex-flow: row;
+                        justify-content: center;
+                    }
+                    .bdCollapse{
+                        border-collapse: collapse;
+                        display: inline-block;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+                    th,tr, td{
+                        border: 2px solid rgb(129, 129, 129);
+                        margin: 5px 10px;
+                        padding: 5px 10px;
+                    }
+                    th{
+                        background-color:rgb(129, 129, 129);
+                        color: white;
+                    }
+                </textarea>
+            </section>
+        </main>
+
+        <footer>
+            Anthony Di Persio - MémoHTMLV1.0 © 2021 - <a href="mailto:dipersio.a@gmail.com">dipersio.a@gmail.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>

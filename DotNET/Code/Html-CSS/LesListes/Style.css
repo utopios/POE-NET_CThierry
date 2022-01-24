@@ -1,0 +1,25 @@
+ol, ul{
+    color: rgb(129, 129, 129);
+}
+body{
+    text-align:left;
+}
+li{
+    /* Avec ou sans selection de la puce inside | outside */
+    list-style-position: inside;
+}
+/* Avec une image Perso */
+.imgRouge{
+    list-style-image: url(../§§§IMG§§§/puce_rouge_1.png)
+}
+.imgOrange{
+    list-style-image: url(../§§§IMG§§§/puce_orange_1.png)
+}
+.imgVert{
+    list-style-image: url(../§§§IMG§§§/puce_verte_1.png)
+}
+
+/* Avec des icones prise en charge*/
+.styleType{
+    list-style-type:circle;
+}

@@ -1,0 +1,47 @@
+.Titre{
+    color: blue;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+table 
+{
+    border : 1px solid rgb(77, 77, 77);
+}
+
+th{
+    border : 1px dotted rgb(77, 77, 77);
+}
+
+td{
+    border : 1px double rgb(77, 77, 77);
+}
+
+tr{
+    border : 1px dashed rgb(77, 77, 77);
+}
+
+.BdCollapse{
+    border-collapse: collapse;
+}
+
+.dashed{
+    border-collapse: collapse;
+    border: 3px dashed red;
+}
+.double{
+
+    border: 3px double green;
+}
+.ridge{
+    border-collapse: collapse;
+    border: 3px ridge blueviolet;
+}
+.dotted{
+    border-collapse: collapse;
+    border: 3px dotted rgb(226, 95, 43);
+}

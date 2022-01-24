@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Les formulaires</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="banniere">
+                <img src="img/HTML5-CSS3.jpg" alt="Logo langage HMTL5 et CSS3" class="imageBanniere" />
+                <span class="textBan">&lt;<em>Memo</em><strong>HTML</strong>.free.fr&gt;</span>
+                <img src="img/HTML5-CSS3.jpg" alt="Logo langage HMTL5 et CSS3" class="imageBanniere" />
+            </div>
+            <nav class="btnNav">
+                <a href="index.html">Les Bases</a> -
+                <a href="architecture.html">Architecture</a> -
+                <a href="texte.html">Texte</a> -
+                <a href="tableaux.html">Les Tableaux</a> -
+                <a href="listes.html">Les Listes</a> -
+                <a href="formulaire.html">Formulaire</a> -
+                <a href="medias.html">Médias</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Les formulaires en HTML</h1>
+            <div class="tabIndex">
+                <table class="bdCollapse">
+                    <caption>Informations de la page</caption>
+                    <tr>
+                        <td>&lt;form&gt;</td>
+                        <td>Zone</td>
+                        <td>&lt;input /&gt;</td>
+                        <td>Champ d'un formulaire</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;textarea&gt;</td>
+                        <td>Champ de texte multi-ligne</td>
+                        <td>&lt;button&gt;</td>
+                        <td>Bouton</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;Select&gt;</td>
+                        <td>Liste déroulante</td>
+                        <td>&lt;optgroup&gt;</td>
+                        <td>Groupe d'option</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;option&gt;</td>
+                        <td>Option d'une liste</td>
+                        <td>&lt;label&gt;</td>
+                        <td>Titre d'un élément</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;fieldset&gt;</td>
+                        <td>Groupe de champs</td>
+                        <td>&lt;legend&gt;</td>
+                        <td>Titre d'un fieldset</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;datalist&gt;</td>
+                        <td>liste de choix</td>
+                        <td>&lt;output&gt;</td>
+                        <td>Resultat d'un calcul</td>
+                    </tr>
+                </table>
+            </div>
+            <section >
+                <form>
+                    <fieldset>
+                        <legend>Formulaire</legend>
+                        <p>
+                            <label>Text :</label><input type="text" name="nom">
+                        </p>
+
+                        <p>
+                            <label>Password :</label><input type="password" name="motdepasse">
+                        </p>
+                        <p>
+                            <label>Date :</label><input type="date" name="date">
+                        </p>
+                        <p>
+                            <label>Zone de texte :</label>
+                        </p>
+                        <p>
+                            <textarea name="zoneLibre" id="" cols="30"
+                                rows="10">Ici sera noté le texte de cette zone</textarea>
+                        </p>
+                        <p>
+                            <input type="radio" value="Choix1" name="choix"><label>Choix1</label>
+                            <input type="radio" value="Choix2" name="choix" checked><label>Choix2</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" value="java" name="module" /><label>Java</label>
+                            <input type="checkbox" value="cSharp" name="module" /><label>C#</label>
+                            <input type="checkbox" value="html" name="module" checked /><label>HTML</label>
+                            <input type="checkbox" value="js" name="module" /><label>JS</label>
+                        </p>
+                        <p>
+                            <label>Liste des villes </label>
+                            <select name="ville">
+                                <option></option>
+                                <option value="1">Lille</option>
+                                <option value="2">Paris</option>
+                                <option value="3">Lyon</option>
+                                <option value="1">Lille</option>
+                                <option value="2">Paris</option>
+                                <option value="3">Lyon</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label>Liste des villes </label>
+                            <select name="ville" multiple>
+                                <optgroup label="Ville"></optgroup>
+                                <option value="1">Lille</option>
+                                <option value="2">Paris</option>
+                                <option value="3">Lyon</option>
+                                <optgroup label="Pays"></optgroup>
+                                <option value="1">France</option>
+                                <option value="2">Belgique</option>
+                                <option value="3">Italie</option>
+                            </select>
+                        </p>
+                        <p>
+                            <input type="submit" name="annuler" value="Annuler">
+                            <!-- ou -->
+                            <button type="submit">Envoyer</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </section>
+            <section>
+                <h3>HTML :</h3>
+                <textarea class="code" cols="110" rows="65">
+                    <form>
+                        <fieldset>
+                            <legend>Formulaire</legend>
+                            <p>
+                                <label>Text :</label><input type="text" name="nom">
+                            </p>
+    
+                            <p>
+                                <label>Password :</label><input type="password" name="motdepasse">
+                            </p>
+                            <p>
+                                <label>Date :</label><input type="date" name="date">
+                            </p>
+                            <p>
+                                <label>Zone de texte :</label>
+                            </p>
+                            <p>
+                                <div name="zoneLibre" id="" cols="30"
+                                    rows="10">Ici sera noté le texte de cette zone</div>
+                            </p>
+                            <p>
+                                <input type="radio" value="Choix1" name="choix"><label>Choix1</label>
+                                <input type="radio" value="Choix2" name="choix" checked><label>Choix2</label>
+                            </p>
+                            <p>
+                                <input type="checkbox" value="java" name="module" /><label>Java</label>
+                                <input type="checkbox" value="cSharp" name="module" /><label>C#</label>
+                                <input type="checkbox" value="html" name="module" checked /><label>HTML</label>
+                                <input type="checkbox" value="js" name="module" /><label>JS</label>
+                            </p>
+                            <p>
+                                <label>Liste des villes </label>
+                                <select name="ville">
+                                    <option></option>
+                                    <option value="1">Lille</option>
+                                    <option value="2">Paris</option>
+                                    <option value="3">Lyon</option>
+                                    <option value="1">Lille</option>
+                                    <option value="2">Paris</option>
+                                    <option value="3">Lyon</option>
+                                </select>
+                            </p>
+                            <p>
+                                <label>Liste des villes </label>
+                                <select name="ville" multiple>
+                                    <optgroup label="Ville"></optgroup>
+                                    <option value="1">Lille</option>
+                                    <option value="2">Paris</option>
+                                    <option value="3">Lyon</option>
+                                    <optgroup label="Pays"></optgroup>
+                                    <option value="1">France</option>
+                                    <option value="2">Belgique</option>
+                                    <option value="3">Italie</option>
+                                </select>
+                            </p>
+                            <p>
+                                <input type="submit" name="annuler" value="Annuler">
+                                <!-- ou -->
+                                <button type="submit">Envoyer</button>
+                            </p>
+                        </fieldset>
+                    </form>
+                </textarea>
+            </section>
+        </main>
+
+        <footer>
+            Anthony Di Persio - MémoHTMLV1.0 © 2021 - <a href="mailto:dipersio.a@gmail.com">dipersio.a@gmail.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>

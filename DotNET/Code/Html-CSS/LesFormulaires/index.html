@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Les Formulaires</title>
+</head>
+
+<body>
+    <div class="container">
+        <fieldset>
+            <legend>Formulaires</legend>
+            <div class="space">
+                <label for="Titre">Mr : </label>
+                <input name="Titre" type="radio" />
+                <label for="Titre">Mme : </label>
+                <input name="Titre" type="radio" checked />
+                <label for="Titre">Mlle : </label>
+                <input name="Titre" type="radio" />
+            </div>
+            <div class="space">
+                <label for="Nom">Nom : </label><input name="Nom" type="text/">
+                <label for="Prenom">Prénom : </label><input name="Prénom" type="text/">
+            </div>
+            <div class="space">
+                <label for="Nom">Date : </label><input name="Nom" type="date">
+            </div>
+            <div class="space">
+                <label for="Password">Password : </label><input name="Paswword" type="password">
+                <label for="Retype">Password : </label><input name="Retype" type="password">
+            </div>
+            <div class="space">
+                <label for="Java">Password : </label><input name="Java" type="checkbox">
+                <label for="C#">Password : </label><input name="C#" type="checkbox">
+                <label for="C#">Password : </label><input name="C#" type="checkbox" checked>
+            </div>
+            <div class="space">
+                <label for="Ville">Liste de villes : </label>
+                <select name="Ville">
+                    <option disabled>Ville</option>
+                    <option value="Lille">Lille</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Lyon">Lyon</option>
+                    <option value="Bordeaux">Bordeaux</option>
+                    <option value="Nantes">Nantes</option>
+                </select>
+            </div>
+
+            <div class="space">
+                <label for="Ville">Liste de villes (multiple) : </label>
+                <select name="Ville multiple" multiple>
+                    <optgroup label="Ville">
+                        <option value="Lille">Lille</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Lyon">Lyon</option>
+                        <option value="Bordeaux">Bordeaux</option>
+                        <option value="Nantes">Nantes</option>
+                    </optgroup>
+                    <optgroup label="Pays">
+                        <option value="France">France</option>
+                        <option value="Belgique">Belgique</option>
+                        <option value="Allemagne">Allemagne</option>
+                        <option value="Italie">Italie</option>
+                        <option value="Espagne">Espagne</option>
+                    </optgroup>
+                </select>
+            </div>
+            <input type="submit" type="button" value="Valider"/>
+            <button type="reset">Annuler</button>
+        </fieldset>
+    </div>
+</body>
+
+</html>

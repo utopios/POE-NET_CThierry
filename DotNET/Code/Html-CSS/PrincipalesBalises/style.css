@@ -1,0 +1,55 @@
+h1{
+    color: red;
+}
+
+#MaJustification{
+    text-align: left;
+}
+
+.Justify{
+    font-weight: bold;
+    text-align: justify;
+}
+
+.Center{
+    text-align:center
+}
+
+.Right{
+    text-align:right
+}
+
+.Left{
+    text-align:left
+}
+
+
+#red{
+    background-color: red;
+}
+
+#green{
+    background-color: green;
+}
+
+#blue{
+    background-color: blue;
+}
+#purple{
+    background-color: purple;
+}
+
+.MesDivs{
+    width: 150px;
+    height: 150px;
+    border: 1px dotted rgb(77,77,77);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(77,77,77);
+    color: seashell;
+    border-radius: 85px;
+}
+
+
+
