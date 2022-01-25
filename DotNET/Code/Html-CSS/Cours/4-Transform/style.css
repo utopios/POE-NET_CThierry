@@ -73,5 +73,41 @@ a:hover
 .btn:hover{
     background-color: var(--Fond92);
     border-color: var(--Orange);
+    transform: scale(1.10);
+}
+.conteneur{
+
+}
+.vignette{
+    display: inline-block;
+    background-color: var(--Fond77);
+    margin: 40px 20px;
+    border: 1px solid var(--Blanc);
+    border-radius: 10px;
+    padding: 60px;
+    box-shadow: 12px 12px 2px 1px var(--Shadow);
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+.vignette:hover{
     transform: scale(1.05);
+    background-color: var(--Fond92);
+    border: 1px solid var(--Orange);
+
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+.footer{
+    background-color: var(--Fond77);
+    border: 1px solid var(--Blanc);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    box-shadow: 12px 12px 2px 1px var(--Shadow);
+    height: 50px;    
 }
