@@ -1,0 +1,24 @@
+#------- Image source
+FROM debian:latest
+
+#------- Information sur l'image
+LABEL version="1.0.0" mainbtainer="Anthony Dipersio <anthony@utopios.net>"
+
+#------- Démarrer des commandes au moment de la création de l'image Linux
+RUN apt-get update && apt-get upgrade -y && apt-get install nodejs -y && apt-get install npm -y && apt-get install nano -y
+
+#------- Se positionner à l'intérieur du dossier /home/web
+WORKDIR /home/web
+
+#------- Copier le dossier où se trouve les dockerfile à l'intérieur dudossier cible
+COPY . .
+
+#------- Exposer les port
+EXPOSE 80
+
+#------- Installation de Express
+RUN npm install express
+
+#------- Indique la commande de démarrage de notre serveur node 
+# CMD node index.js
+CMD ["node","index.js"]

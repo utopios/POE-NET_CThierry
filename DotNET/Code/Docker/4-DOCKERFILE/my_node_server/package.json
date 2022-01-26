@@ -1,0 +1,11 @@
+{
+    "name":"server-web-node-js",
+    "version":"1.0.0",
+    "description": "Ici rentrez la description",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo\"Error:test specified\" && Exit 1"
+    },
+    "author": "Anthony Di Persio",
+    "license": "MIT"
+}
