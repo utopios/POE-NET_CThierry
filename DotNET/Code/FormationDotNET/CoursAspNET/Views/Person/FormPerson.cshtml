@@ -1,4 +1,8 @@
-﻿<h1>Ajouter une personne</h1>
+﻿
+@{
+    ViewData["Title"] = "Ajouter une Personnes";
+}
+<h1>@ViewData["Title"]</h1>
 
 <form asp-controller="Person" asp-action="SubmitPerson" method="post">
     <div class="row m-1">

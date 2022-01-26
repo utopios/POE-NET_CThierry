@@ -1,7 +1,10 @@
 ﻿@model Person
-
+@{
+    ViewData["Title"] = "Affichage de la Personnes";
+}
+<h1>@ViewData["Title"]</h1>
 <div>
-    Formulaire recu avec les données suivante
+    Formulaire reçu avec les données suivante
 </div>
 <div>
     Nom : @Model.LastName - Prénom : @Model.FirstName
