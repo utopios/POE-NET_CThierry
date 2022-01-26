@@ -1,0 +1,41 @@
+#-------------------------- DEBUT COUCHE OS ----------------------------
+FROM debian:latest
+#-------------------------- FIN COUCHE OS ----------------------------
+
+# Metadonnées de l'image
+LABEL version="1.0.0" maintainer="Anthony Di Persio <anthony@utopios.net>"
+
+# VARIABLES TEMPORAIRES
+ARG APT_FLAGS="-q -y"
+ARG DOCUMENTROOT="/var/www/html"
+
+#-------------------------- DEBUT COUCHE APACHE ----------------------------
+RUN apt-get update && apt-get upgrade -y && \
+    apt install ${APT_FLAGS} apache2
+ #-------------------------- FIN COUCHE APACHE ----------------------------
+
+#-------------------------- DEBUT COUCHE MySQL ----------------------------
+RUN apt install ${APT_FLAGS} mariadb-server 
+
+COPY db/articles.sql /
+#-------------------------- FIN COUCHE MySQL ----------------------------
+
+#-------------------------- DEBUT COUCHE PHP ----------------------------
+RUN apt install ${APT_FLAGS} \
+php-mysql \
+php && \
+rm -f ${DOCUMENTROOT}/index.html &&\
+apt-get autoclean -y
+
+COPY app ${DOCUMENTROOT}
+#-------------------------- FIN COUCHE PHP ----------------------------
+
+
+# OUVERTURE DES PORTS
+EXPOSE 80
+
+# REPERTOIRE DE TRAVAIL
+WORKDIR ${DOCUMENTROOT}
+
+# DEMARRAGE DES SERVICES LORS DE L4EXECUTION DE L IMAGE
+ENTRYPOINT service mysql start && mysql < /articles.sql && apache2ctl -D FOREGROUND
