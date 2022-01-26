@@ -22,9 +22,15 @@ namespace CoursAspNET.Controllers
         }
 
         // GET: PersonController/Create
-        public IActionResult Create()
+        public IActionResult FormPerson()
         {
             return View();
+        }
+
+        public IActionResult SubmitPerson(string LastName , string FirstName)
+        {
+            Person person = new Person() { FirstName = FirstName, LastName= LastName };
+            return View(person);
         }
 
         // POST: PersonController/Create

@@ -1,0 +1,13 @@
+﻿<h1>Ajouter une personne</h1>
+
+<form asp-controller="Person" asp-action="SubmitPerson" method="post">
+    <div class="row m-1">
+        <input type="text" name="firstName" class="form-control col p-1" placeholder="Merci de saisir votre prénom"/>
+    </div>
+    <div class="row m-1">
+        <input type="text" name="LastName" class="form-control col p-1" placeholder="Merci de saisir votre nom"/>
+    </div>
+    <div class="row m-1">
+        <button class="col btn btn-primary" type="submit">Valider</button>
+    </div>
+</form>
