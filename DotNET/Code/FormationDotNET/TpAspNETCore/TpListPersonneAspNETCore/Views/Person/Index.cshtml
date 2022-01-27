@@ -1,0 +1,41 @@
+﻿@using System.Collections.ObjectModel;
+@model ObservableCollection<Person>;
+<div class="container">
+    <h1>Liste des Personnes</h1>
+    @if (Model != null)
+    {
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nom</th>
+                    <th scope="col">Prénom</th>
+                    <th scope="col">Phone</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Person p in @Model)
+                {
+                    <tr>
+                        <th scope="row"></th>
+                        <td>@p.Id</td>
+                        <td>@p.LastName</td>
+                        <td>@p.FirstName</td>
+                        <td>@p.Phone</td>
+                        <td>@p.Email</td>
+                        <td>
+                            <a asp-controller="Home" 
+                                    asp-action="Detail"                                   
+                                    asp-route-id="@p.Id">
+                                    Details
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div> 

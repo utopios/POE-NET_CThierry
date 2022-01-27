@@ -1,0 +1,27 @@
+﻿@model Person
+
+<form class="container" asp-controller="Home" asp-action="SubmitCreate">
+    @if (ViewBag.messageError != null)
+    {
+        <div class="row m-1 justify-content-center align-items-center">
+            <div class="col-6 alert alert-danger p-1">
+                @ViewBag.messageError
+            </div>
+        </div>
+    }
+    <div class="row m-1 justify-content-center align-items-center">
+        <input required type="text" asp-for="@Model.FirstName" class="col-6 p-1 form-control" placeholder="Nom : " />
+    </div>
+    <div class="row m-1 justify-content-center align-items-center">
+        <input required type="text" asp-for="@Model.LastName" class="col-6 p-1 form-control" placeholder="Prénom  : " />
+    </div>
+    <div class="row m-1 justify-content-center align-items-center">
+        <input required type="text" asp-for="@Model.Phone" class="col-6 p-1 form-control" placeholder="Téléphone : " />
+    </div>
+    <div class="row m-1 justify-content-center align-items-center">
+        <input type="number" asp-for="@Model.Email" class="col-6 p-1 form-control" placeholder="Email : " />
+    </div>
+    <div class="row m-1 justify-content-center align-items-center">
+        <button class="col-6 btn btn-dark p-1" type="submit">Valider</button>
+    </div>
+</form>
