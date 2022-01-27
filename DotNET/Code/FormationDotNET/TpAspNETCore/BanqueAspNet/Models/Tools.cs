@@ -9,13 +9,12 @@ namespace BanqueWeb.Models
     {
         public static bool IsName(string name)
         {
-            string pattern = @"^[a-zA-Z\s-]+$";
+            string pattern = @"^([A-Z]{1})([a-zA-Zéë\s\-]*)$";
             return Regex.IsMatch(name, pattern);
         }
-
         public static bool IsPhone(string phone)
         {
-            string pattern = @"^0([1-9]{1})(\.|\s|-)?((\d){2}(\.|\s|-)?){3}(\d{2})$";
+            string pattern = @"^([+33|0]+)(\s|\.|\-)?([1-9]{1})(\.|\s|\-)?([0-9]{2}(\.|\s|\-)?){4}$";
             return Regex.IsMatch(phone, pattern);
         }
     }

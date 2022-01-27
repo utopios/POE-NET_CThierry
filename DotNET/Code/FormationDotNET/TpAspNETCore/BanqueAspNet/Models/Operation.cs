@@ -55,7 +55,7 @@ namespace BanqueWeb.Models
             command = new SqlCommand("SELECT montant, date_operation FROM operation WHERE compte_id = @IdCompte", connection);
             command.Parameters.Add(new SqlParameter("@IdCompte", id));
             connection.Open();
-            SqlDataReader reader = command.ExecuteReader();
+            reader = command.ExecuteReader();
             while (reader.Read())
             {
                 Operation o = new Operation(reader.GetDecimal(0)) { DateOperation = reader.GetDateTime(1)};
