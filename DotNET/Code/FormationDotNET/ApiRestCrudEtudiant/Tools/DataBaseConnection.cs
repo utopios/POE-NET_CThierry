@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,8 +9,8 @@ namespace CrudEtudiant.Tools
 {
     public class DataBaseConnection
     {
-        private static string chaine = @"Server=vps748191.ovh.net;User=c0DotNetUser;Password=zD7#ig6P;DataBase=c0DotNetBDD";
+        private static string chaine = @"Data Source=(LocalDB)\M2iCT;Integrated Security=True";
 
-        public static MySqlConnection Connection { get => new MySqlConnection(chaine); }
+        public static SqlConnection Connection { get => new SqlConnection(chaine); }
     }
 }

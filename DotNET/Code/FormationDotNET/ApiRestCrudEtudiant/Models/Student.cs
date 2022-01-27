@@ -45,28 +45,28 @@ namespace CrudEtudiant.Models
         public bool Add()
         {
             
-            return StudentMySqlDAO.AddStudent(this);
+            return StudentSqlDAO.AddStudent(this);
             // return StudentDAO.AddStudent(this);
         }
 
         public static List<Student> Get()
         {
-            return StudentMySqlDAO.GetStudents();
+            return StudentSqlDAO.GetStudents();
         }
 
         public static Student Get(int Id)
         {
-            return StudentMySqlDAO.GetStudent(Id);
+            return StudentSqlDAO.GetStudent(Id);
         }
 
         public bool Update()
         {
-            return StudentMySqlDAO.UpdateStudent(this);
+            return StudentSqlDAO.UpdateStudent(this);
         }
 
         public static bool Delete(int Id)
         {
-            return StudentMySqlDAO.DeleteStudent(Id);
+            return StudentSqlDAO.DeleteStudent(Id);
         }
     }
 }
