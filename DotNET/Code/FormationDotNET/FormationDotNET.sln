@@ -403,6 +403,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BanqueAspNet", "TpAspNETCor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiRestCrudEtudiant", "ApiRestCrudEtudiant\ApiRestCrudEtudiant.csproj", "{4D422278-2CF9-49A3-88DC-FBBC8F888C22}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TirageWPF", "TirageWPF\TirageWPF.csproj", "{631671D8-25E6-4D3E-B0F4-DD2CA4DF0EBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -769,6 +771,10 @@ Global
 		{4D422278-2CF9-49A3-88DC-FBBC8F888C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D422278-2CF9-49A3-88DC-FBBC8F888C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D422278-2CF9-49A3-88DC-FBBC8F888C22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631671D8-25E6-4D3E-B0F4-DD2CA4DF0EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631671D8-25E6-4D3E-B0F4-DD2CA4DF0EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631671D8-25E6-4D3E-B0F4-DD2CA4DF0EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631671D8-25E6-4D3E-B0F4-DD2CA4DF0EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -909,6 +915,7 @@ Global
 		{6954998E-7313-402E-BEF6-C2BAE22E9EC1} = {49EADFB1-400A-4D54-9DF3-7B86D74DF696}
 		{073CC440-3D15-4440-BB7C-82F7C09E7761} = {AD69485E-76CF-490D-9D58-2F5E10298B7E}
 		{4D422278-2CF9-49A3-88DC-FBBC8F888C22} = {AD69485E-76CF-490D-9D58-2F5E10298B7E}
+		{631671D8-25E6-4D3E-B0F4-DD2CA4DF0EBC} = {B7024668-4B71-47A3-99AA-FBE8EE4EF16C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F5F89044-D98C-46F5-8E78-8715B976ECF9}
